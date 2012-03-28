@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>An empty Interface Builder Storyboard document for an iOS interface.</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.storyboard</string>
+	<key>SortOrder</key>
+	<string>5</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>deviceFamily</string>
+			<key>Name</key>
+			<string>Device Family</string>
+			<key>Description</key>
+			<string>What device family to create the file for.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>iPhone</string>
+			<key>Values</key>
+			<array>
+				<string>iPhone</string>
+				<string>iPad</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

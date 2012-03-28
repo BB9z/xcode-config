@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.objectiveCUnitTestBundle</string>
+		<string>com.apple.dt.unit.iPhoneBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This target builds a unit test bundle that uses Cocoa Touch APIs and OCUnit.</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.cocoaTouchUnitTestBundle</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importCocoa</string>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>UIKit</string>
+				<string>Foundation</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>$(SDKROOT)/Developer/Library/Frameworks $(DEVELOPER_LIBRARY_DIR)/Frameworks</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)initWithContentView:(UIView*)ContentView{
+	if (self = [super init]) {
+		self.contentView = ContentView;
+        // 在此要求view，触发
+		[ContentView addSubview:self.view];
+	}
+	return self;
+}
+
+- (void)loadView{
+	doutwork()
+	
+    // 
+	self.view = [[UIView alloc] initWithFrame:self.contentView.bounds];
+	DOUT_START
+		[self.view setBackgroundColor:[UIColor greenColor]];
+	DOUT_END
+    
+    // 其他处理
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D8EDFC93-31A9-4630-8B97-199C8196ECBA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>无NIB视图控制器引导写法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewController init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
