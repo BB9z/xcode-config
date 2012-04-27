@@ -3,19 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@ps</string>
+	<string>$s</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_STRONG, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>+ (&lt;#Class#&gt;)sharedInstance {
+	static &lt;#Class#&gt; sharedInstance = nil;
+	
+	if (sharedInstance == nil) {
+		@synchronized(self) {
+			if (sharedInstance == nil) {
+				sharedInstance = [[self alloc] init];
+			}
+		}
+	}
+	return sharedInstance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19F2124E-7FC0-4415-A1C4-028C74F69F30</string>
+	<string>87429E87-BD38-40C2-B9C9-F52FE43E9243</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (RF_STRONG, nonatomic)</string>
+	<string>Singletons</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

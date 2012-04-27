@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@ps</string>
+	<string>msg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_STRONG, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>static NSString *MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19F2124E-7FC0-4415-A1C4-028C74F69F30</string>
+	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (RF_STRONG, nonatomic)</string>
+	<string>MSG Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

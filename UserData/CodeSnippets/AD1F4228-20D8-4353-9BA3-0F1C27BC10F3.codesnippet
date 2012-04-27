@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@ps</string>
+	<string>@pw</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_STRONG, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (readwrite, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19F2124E-7FC0-4415-A1C4-028C74F69F30</string>
+	<string>AD1F4228-20D8-4353-9BA3-0F1C27BC10F3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (RF_STRONG, nonatomic)</string>
+	<string>@property (readwrite, nonatomic)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
