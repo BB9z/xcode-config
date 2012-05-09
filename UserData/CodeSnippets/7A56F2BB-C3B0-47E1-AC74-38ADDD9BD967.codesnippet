@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iba, $iba</string>
+	<string>$post</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (IBAction)&lt;#selector#&gt;:(id)sender {
-	&lt;#code#&gt;
-}</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#MSGName#&gt; object:nil userInfo:[NSDictionary dictionaryWithObjectsAndKeys:&lt;#(id), ...#&gt;, nil]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7620C99A-A5C2-421D-AAFB-346739AB1BFA</string>
+	<string>7A56F2BB-C3B0-47E1-AC74-38ADDD9BD967</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction Selector</string>
+	<string>Post Notification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

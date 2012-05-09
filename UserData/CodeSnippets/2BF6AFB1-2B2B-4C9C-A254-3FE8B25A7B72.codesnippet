@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
+	<string>static NSString *const MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
 	<key>IDECodeSnippetLanguage</key>
