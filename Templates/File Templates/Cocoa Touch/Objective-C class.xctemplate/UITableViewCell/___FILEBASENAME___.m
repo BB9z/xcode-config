@@ -10,6 +10,15 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+- (void)awakeFromNib {
+    self.selectionStyle = UITableViewCellSelectionStyleBlue;
+    self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+}
+
+- (id)initWithNibName:(NSString *)cellNibName {
+    return [[[NSBundle mainBundle] loadNibNamed:cellNibName owner:self options:nil] firstObject];
+}
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
