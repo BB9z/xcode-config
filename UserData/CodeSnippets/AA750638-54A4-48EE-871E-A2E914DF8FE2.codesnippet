@@ -9,13 +9,13 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#MSGName#&gt; object:nil userInfo:[NSDictionary dictionaryWithObjectsAndKeys:&lt;#(id), ...#&gt;, nil]];</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:MSG&lt;#name#&gt; object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7A56F2BB-C3B0-47E1-AC74-38ADDD9BD967</string>
+	<string>AA750638-54A4-48EE-871E-A2E914DF8FE2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Notification Post</string>
+	<string>Notification Add Observer selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

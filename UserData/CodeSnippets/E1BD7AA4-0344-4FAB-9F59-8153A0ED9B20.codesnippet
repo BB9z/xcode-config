@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@CoreDataStack</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Core Data stack
+- (id)init {
+    if (self = [super init]) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(save) name:UIApplicationWillTerminateNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(save) name:UIApplicationWillResignActiveNotification object:nil];
+    }
+    return self;
+}
+
+- (bool)save {
+	_doutwork()
+	NSError *error;
+    if (managedObjectContext != nil) {
+        if ([managedObjectContext hasChanges] &amp;&amp; ![managedObjectContext save:&amp;error]) {
+			// Update to handle the error appropriately.
+			dout(@"Unresolved error %@, %@", error, [error userInfo]);
+			return NO;
+        }
+    }
+	return YES;
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (NSManagedObjectContext *)managedObjectContext {
+    if (managedObjectContext != nil) {
+        return managedObjectContext;
+    }
+	
+    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+    if (coordinator != nil) {
+        managedObjectContext = [[NSManagedObjectContext alloc] init];
+        [managedObjectContext setPersistentStoreCoordinator:coordinator];
+    }
+	
+    return managedObjectContext;
+}
+
+- (NSManagedObjectModel *)managedObjectModel {
+    if (managedObjectModel != nil) {
+        return managedObjectModel;
+    }
+    managedObjectModel = RF_RETAIN([NSManagedObjectModel mergedModelFromBundles:nil]);
+    return managedObjectModel;
+}
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+	@synchronized (persistentStoreCoordinator) {
+		if (persistentStoreCoordinator != nil) {
+			return persistentStoreCoordinator;
+		}
+		
+		NSURL *storeUrl = [NSURL fileURLWithPath:[self getStorePath]];
+		
+		// 数据库存在？
+		if (![[NSFileManager defaultManager] fileExistsAtPath:[storeUrl path] isDirectory:NULL]) {
+            douts(@"Creat new db")
+		}
+		
+		NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];	
+		persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [self managedObjectModel]];
+		
+		// 检查可访问状态
+		NSError *error = nil;
+		if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:&amp;error]) {
+			
+			NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+			UIAlertView * noStore = [[UIAlertView alloc] initWithTitle:@"存储出错" message:@"可能原因：缓存数据访问出错\n如果重复出现此错误请尝试卸载安装应用后重新安装，给您带来的不便敬请谅解。" delegate:self cancelButtonTitle:nil otherButtonTitles:@"点击退出",nil];
+			[noStore show];
+            RF_RELEASE_OBJ(noStore)
+			return nil;
+		}
+		
+		return persistentStoreCoordinator;
+	}
+    
+}
+
+- (NSString *)getStorePath {
+	bool isStoreInDocuments = NO;
+	NSString * path;
+	if (isStoreInDocuments) {
+		path = [NSString stringWithFormat:@"%@",[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"Model.sqlite"]];
+	}
+	else{
+		path = [NSString stringWithFormat:[NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches/Model.sqlite"]];
+	}
+	douts(path)
+	return path;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E1BD7AA4-0344-4FAB-9F59-8153A0ED9B20</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>summm</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Core Data Stack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
