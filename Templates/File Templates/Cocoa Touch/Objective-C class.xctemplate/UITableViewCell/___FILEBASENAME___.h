@@ -10,4 +10,7 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
 
+@property (RF_STRONG, nonatomic) IBOutlet UILabel *titleLabel;
+@property (RF_STRONG, nonatomic) IBOutlet UILabel *textLabel;
+
 @end

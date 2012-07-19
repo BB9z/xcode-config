@@ -9,6 +9,8 @@
 #import "___FILEBASENAME___.h"
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
+@synthesize titleLabel;
+@synthesize textLabel;
 
 - (void)awakeFromNib {
     self.selectionStyle = UITableViewCellSelectionStyleBlue;
@@ -19,17 +21,7 @@
     return [[[NSBundle mainBundle] loadNibNamed:cellNibName owner:self options:nil] firstObject];
 }
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
