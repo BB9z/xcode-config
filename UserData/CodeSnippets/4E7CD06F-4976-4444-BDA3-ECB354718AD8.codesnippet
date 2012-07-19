@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pi</string>
+	<string>@interface</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_WEAK, nonatomic) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>/**
+ @class &lt;#Class#&gt;
+ @brief 
+*/
+@interface &lt;#Class#&gt; : NSObject {
+}
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AFF17898-F21A-4894-8831-9D428267ABDE</string>
+	<string>4E7CD06F-4976-4444-BDA3-ECB354718AD8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property IBOutlet</string>
+	<string>interface</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

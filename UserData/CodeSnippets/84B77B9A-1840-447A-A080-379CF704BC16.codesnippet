@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pi</string>
+	<string>r</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_WEAK, nonatomic) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>return (length &gt; 1)? [NSString stringWithFormat:@"%d-%d", start, length+start-1] : [NSString stringWithFormat:@"%d", start];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AFF17898-F21A-4894-8831-9D428267ABDE</string>
+	<string>84B77B9A-1840-447A-A080-379CF704BC16</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property IBOutlet</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
