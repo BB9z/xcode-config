@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>auto</string>
+	<string>NSNotification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    [pool drain];</string>
+	<string>__weak &lt;#Class#&gt; *selfRef = self;
+[NSNotificationCenter defaultCenter] addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
+    douto(note)
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E59EA41E-9C93-4FA9-9C49-AB5170BAE208</string>
+	<string>B5B1CA62-6162-4425-AD5B-ABEB57E660CC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Autorelease Pool</string>
+	<string>Add observer using block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>AutoreleasePool</string>
+	<string>Notification +Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -11,14 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>+ (&lt;#Class#&gt;)sharedInstance {
 	static &lt;#Class#&gt; sharedInstance = nil;
-	
-	if (sharedInstance == nil) {
-		@synchronized(self) {
-			if (sharedInstance == nil) {
-				sharedInstance = [[self alloc] init];
-			}
-		}
-	}
+    static dispatch_once_t oncePredicate;
+    dispatch_once(&amp;oncePredicate, ^{
+        sharedInstance = [[self alloc] init];
+    });
 	return sharedInstance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

@@ -10,7 +10,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** @name &lt;#说明#&gt; */</string>
+	<string>/// @name &lt;#说明#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DF67243E-2FCE-49DE-9579-CA15A4009FBF</string>
 	<key>IDECodeSnippetLanguage</key>

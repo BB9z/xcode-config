@@ -9,16 +9,26 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** This is the first super-awesome method.
+	<string>/** 
+ This is the first super-awesome method.
  
+ @discussion 进一步讨论
  You can also add lists, but have to keep an empty line between these blocks.
  
  - One
  - Two
  - Three
  
+ @warning 说明
+ 
+ @param 参数  参数说明
  @param string A parameter that is passed in.
+ 
+ 
+ 
  @return Whatever it returns.
+ 
+ @see `something`
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2290275B-F13C-4691-B395-1E8526888F71</string>

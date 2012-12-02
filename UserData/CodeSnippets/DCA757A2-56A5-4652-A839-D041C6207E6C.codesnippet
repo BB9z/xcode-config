@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>r</string>
+	<string>NSNotification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>return (length &gt; 1)? [NSString stringWithFormat:@"%d-%d", start, length+start-1] : [NSString stringWithFormat:@"%d", start];</string>
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:self name:&lt;#MSG Name#&gt; object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84B77B9A-1840-447A-A080-379CF704BC16</string>
+	<string>DCA757A2-56A5-4652-A839-D041C6207E6C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Remove observer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Notification -observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

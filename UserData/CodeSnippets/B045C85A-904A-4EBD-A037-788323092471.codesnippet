@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>__weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#markName#&gt;</string>
+	<string>__weak &lt;#Class#&gt; *selfRef = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A8324747-5068-4EAA-87AF-91A828E6D808</string>
+	<string>B045C85A-904A-4EBD-A037-788323092471</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>for block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragma mark</string>
+	<string>Self Weak Refrence</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

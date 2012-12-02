@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>$</string>
+	<string>$交接纪录</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/*!
- 
-*/</string>
+    &lt;#模块名#&gt;
+    &lt;#模块说明#&gt;
+
+    交接纪录：
+    &lt;#月#&gt;/&lt;#日#&gt; - &lt;#月#&gt;/&lt;#日#&gt; &lt;#A#&gt;
+    &lt;#月#&gt;/&lt;#日#&gt; - ~ &lt;#B#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>301150E7-C08A-412D-A19C-A93415EA8816</string>
+	<string>D4DAD8A4-C524-4076-AD1F-8643E060C399</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>交接纪录</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>header document</string>
+	<string>Header</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
