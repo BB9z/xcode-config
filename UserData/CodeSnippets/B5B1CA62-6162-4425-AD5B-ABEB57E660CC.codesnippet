@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak &lt;#Class#&gt; *selfRef = self;
-[NSNotificationCenter defaultCenter] addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
+	<string>__weak __typeof__(self) selfRef = self;
+[[NSNotificationCenter defaultCenter] addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
     douto(note)
 }];</string>
 	<key>IDECodeSnippetIdentifier</key>

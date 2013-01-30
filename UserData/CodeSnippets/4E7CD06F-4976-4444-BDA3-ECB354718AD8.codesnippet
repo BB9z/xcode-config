@@ -9,12 +9,9 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @class &lt;#Class#&gt;
- @brief 
-*/
-@interface &lt;#Class#&gt; : NSObject {
-}
+	<string>
+@interface &lt;#Class#&gt; : NSObject
+
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4E7CD06F-4976-4444-BDA3-ECB354718AD8</string>

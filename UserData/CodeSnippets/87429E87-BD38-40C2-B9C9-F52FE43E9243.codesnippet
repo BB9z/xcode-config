@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#Class#&gt;)sharedInstance {
+	<string>+ (instancetype)sharedInstance {
 	static &lt;#Class#&gt; sharedInstance = nil;
     static dispatch_once_t oncePredicate;
     dispatch_once(&amp;oncePredicate, ^{

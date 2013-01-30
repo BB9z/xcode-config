@@ -6,6 +6,7 @@
 	<string>msg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>Preprocessor</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>

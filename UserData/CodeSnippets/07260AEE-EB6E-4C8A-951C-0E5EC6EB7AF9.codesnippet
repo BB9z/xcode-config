@@ -3,21 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__weak</string>
+	<string>@keypath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof__(self) selfRef = self;</string>
+	<string>@keypath(&lt;#Obj#&gt;, &lt;#keypath#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B045C85A-904A-4EBD-A037-788323092471</string>
+	<string>07260AEE-EB6E-4C8A-951C-0E5EC6EB7AF9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>for block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Self Weak Refrence</string>
+	<string>RFKit keypath complete helper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
