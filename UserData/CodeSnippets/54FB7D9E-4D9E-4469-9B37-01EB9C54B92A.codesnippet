@@ -3,20 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>msg</string>
+	<string>@setter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *const MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
+	<string>- (void)set&lt;#property#&gt;:(&lt;#type#&gt;)&lt;#newVaule#&gt; {
+    if (&lt;#_iVar#&gt; != &lt;#newVaule#&gt;) {
+        [self willChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
+        &lt;#_iVar#&gt; = &lt;#newVaule#&gt;;
+        [self didChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
+	<string>54FB7D9E-4D9E-4469-9B37-01EB9C54B92A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MSG Define</string>
+	<string>User define property setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

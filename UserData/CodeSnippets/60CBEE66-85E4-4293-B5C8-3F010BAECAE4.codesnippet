@@ -3,20 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>msg</string>
+	<string>@synchronized</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *const MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
+	<string>@synchronized(self) {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
+	<string>60CBEE66-85E4-4293-B5C8-3F010BAECAE4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MSG Define</string>
+	<string>@synchronized Auto mutex lock</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

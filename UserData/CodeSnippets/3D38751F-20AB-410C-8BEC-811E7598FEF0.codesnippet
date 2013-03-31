@@ -3,20 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>msg</string>
+	<string>@getter_vc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *const MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
+	<string>- (&lt;#Class#&gt; *)&lt;#property#&gt; {
+    if (!&lt;#iVar#&gt;) {
+        &lt;#Class#&gt; *vc = [self.storyboard instantiateViewControllerWithIdentifierUsingClass:[&lt;#Class#&gt; class]];
+        [self addChildViewController:vc];
+        &lt;#iVar#&gt; = vc;
+    }
+    return &lt;#iVar#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
+	<string>3D38751F-20AB-410C-8BEC-811E7598FEF0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MSG Define</string>
+	<string>ViewController Property Getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

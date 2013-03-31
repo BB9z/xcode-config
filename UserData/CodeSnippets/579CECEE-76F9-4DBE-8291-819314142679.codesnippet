@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>msg</string>
+	<string>NSString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString *const MSG&lt;#Msg Name#&gt; = @"&lt;#Msg Name#&gt;";</string>
+	<string>NSString * const &lt;#something#&gt; = @"&lt;#string#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
+	<string>579CECEE-76F9-4DBE-8291-819314142679</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MSG Define</string>
+	<string>String 常量定义</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
