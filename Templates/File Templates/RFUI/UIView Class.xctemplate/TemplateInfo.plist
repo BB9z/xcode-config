@@ -68,7 +68,7 @@
 			<key>Summary</key>
 			<string>是否使用简化的模版</string>
 			<key>Default</key>
-			<string>false</string>
+			<string>true</string>
 			<key>Identifier</key>
 			<string>Simpled</string>
 			<key>Name</key>

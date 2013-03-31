@@ -15,15 +15,13 @@
     if (results.count == 1) {
         return [results firstObject];
     }
-    else if (results.count == 0) {
-        if (creatIfNotExist) {
-            ___VARIABLE_categoryClass:identifier___ *obj = [NSEntityDescription insertNewObjectForEntityForName:CDEN___VARIABLE_categoryClass:identifier___ inManagedObjectContext:[DataStack sharedInstance].context];
+    if (results.count == 0 && creatIfNotExist) {
+        ___VARIABLE_categoryClass:identifier___ *obj = [NSEntityDescription insertNewObjectForEntityForName:CDEN___VARIABLE_categoryClass:identifier___ inManagedObjectContext:[DataStack sharedInstance].context];
             obj.uid = uid;
-        }
+        return obj;
     }
-    else {
-        RFAssert(false, @"存在多个UID相同的Entity");
-    }
+    
+    RFAssert(false, @"存在多个UID相同的Entity");
     return nil;
 }
 
