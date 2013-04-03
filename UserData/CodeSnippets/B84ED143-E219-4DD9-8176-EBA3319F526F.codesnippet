@@ -9,18 +9,19 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(&amp;*self)weakSelf = self;</string>
+	<string>__weak __typeof(&amp;*self)weakSelf = self;
+__strong __typeof(&amp;*weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B045C85A-904A-4EBD-A037-788323092471</string>
+	<string>B84ED143-E219-4DD9-8176-EBA3319F526F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>for block</string>
+	<string>Using conventional weak/strong self pattern to break block retain cycle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Self Weak Refrence</string>
+	<string>weak/strong self pattern</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
