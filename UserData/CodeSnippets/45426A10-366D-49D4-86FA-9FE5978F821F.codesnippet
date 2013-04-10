@@ -3,24 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@clang-diagnostic</string>
+	<string>@pblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma clang diagnostic push
-#pragma clang diagnostic ignored "&lt;#-Woption#&gt;"
-
-#pragma clang diagnostic pop</string>
+	<string>@property (copy, nonatomic) void (^&lt;#block name#&gt;)(void);
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3EF18FF0-108B-4E3C-AF4A-AFAC2C0B0B57</string>
+	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>clang diagnostic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Suppress Warning</string>
+	<string>@property block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString * const &lt;#something#&gt; = @"&lt;#string#&gt;";</string>
+	<string>NSString *const &lt;#something#&gt; = @"&lt;#string#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>579CECEE-76F9-4DBE-8291-819314142679</string>
 	<key>IDECodeSnippetLanguage</key>

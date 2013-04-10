@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSError *e = nil;
+	<string>NSError __autoreleasing *e = nil;
 if (e) dout_error(@"%@", e);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AA0C5FA1-6D7C-442D-8753-6EB63A427FD9</string>

@@ -10,21 +10,17 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/** 
- This is the first super-awesome method.
+ @const 常量，与名称一致 eg. "NSURLErrorFailingURLErrorKey"
+ @enum 常量 eg. "NSURL-related Error Codes"
+ @function 函数
+ @abstract 描述语句
  
  @discussion 进一步讨论
- You can also add lists, but have to keep an empty line between these blocks.
- 
- - One
- - Two
- - Three
  
  @warning 说明
  
  @param 参数  参数说明
  @param string A parameter that is passed in.
- 
- 
  
  @return Whatever it returns.
  
