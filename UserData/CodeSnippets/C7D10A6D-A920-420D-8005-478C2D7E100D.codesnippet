@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pw</string>
+	<string>@weakify</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@weakify(&lt;#...#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>794DF213-B614-4F55-B3E0-6C825EDE6210</string>
+	<string>C7D10A6D-A920-420D-8005-478C2D7E100D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (weak, nonatomic)</string>
+	<string>EXTObjC weakify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

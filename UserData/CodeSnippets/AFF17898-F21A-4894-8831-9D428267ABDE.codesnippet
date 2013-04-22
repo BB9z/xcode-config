@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (RF_WEAK, nonatomic) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (weak, nonatomic) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AFF17898-F21A-4894-8831-9D428267ABDE</string>
 	<key>IDECodeSnippetLanguage</key>

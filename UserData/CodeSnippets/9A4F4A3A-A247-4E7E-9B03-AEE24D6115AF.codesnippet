@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pw</string>
+	<string>DEPRECATED_ATTRIBUTE</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string> DEPRECATED_ATTRIBUTE</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>794DF213-B614-4F55-B3E0-6C825EDE6210</string>
+	<string>9A4F4A3A-A247-4E7E-9B03-AEE24D6115AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>标定废弃方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (weak, nonatomic)</string>
+	<string>DEPRECATED_ATTRIBUTE</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
