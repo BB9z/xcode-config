@@ -8,9 +8,11 @@
 
 ___IMPORTHEADER_categoryClass___
 
-static NSString *const CDEN___VARIABLE_categoryClass:identifier___ = @"___VARIABLE_categoryClass:identifier___";
+extern NSString *const CDEN___VARIABLE_categoryClass:identifier___;
 
 @interface ___VARIABLE_categoryClass:identifier___ (___VARIABLE_categoryName:identifier___)
 + (___VARIABLE_categoryClass:identifier___ *)entityWithUID:(int)uid creatIfNotExist:(BOOL)creatIfNotExist;
+
++ (___VARIABLE_categoryClass:identifier___ *)persistentJSONObject:(___VARIABLE_categoryClass:identifier___JSONObject *)JSONObject;
 
 @end

@@ -1,5 +1,7 @@
 
+#import "debug.h"
 #import "API.h"
+#import "APIInterface.h"
 
 #import "AFHTTPRequestOperationLogger.h"
 
@@ -8,17 +10,10 @@
 #import "UIDevice+RFKit.h"
 #import "UIAlertView+RFKit.h"
 
-static NSString *const UDkLastUpdateCheckTime = @"Last Update Check Time";
-static NSString *const CPkAutoUpdateCheckInterval = @"Auto Update Check Interval";
-
-#define DebugAPIUpdateForceAutoUpdate 0
-static NSString *const APIURLDeployBase = @"http://example.com";
-static NSString *const APIURLLogin = @"/no";
-
+#import "APIUserPlugin.h"
 
 @interface API ()
 <UIAlertViewDelegate>
-@property (RF_STRONG, nonatomic) NSDictionary *configInfo;
 
 @property (readwrite, nonatomic) BOOL updating;
 - (void)doUpdate;
@@ -27,25 +22,18 @@ static NSString *const APIURLLogin = @"/no";
 
 @implementation API
 
+#pragma mark - Property
 - (NSString *)macAddress {
     static NSString *_macAddress = nil;
     static dispatch_once_t oncePredicate;
     dispatch_once(&oncePredicate, ^{
-        _macAddress =  [UIDevice macAddress];
+        _macAddress = (DebugAPIEnableTestProfile)? DebugAPITestProfileMacAddress : [[UIDevice currentDevice] macAddress];
     });
 	return _macAddress;
 }
 
-- (NSDictionary *)configInfo {
-    if (!_configInfo) {
-        NSDictionary *config = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"config" ofType:@"plist"]];
-        _configInfo = config[@"API"];
-    }
-    return _configInfo;
-}
-
 - (BOOL)isNetworkReachable {
-    return (self.core.networkReachabilityStatus != AFNetworkReachabilityStatusNotReachable)? : NO;
+    return (self.networkReachabilityStatus != AFNetworkReachabilityStatusNotReachable)? : NO;
 }
 
 #pragma mark -
@@ -59,25 +47,26 @@ static NSString *const APIURLLogin = @"/no";
 }
 
 - (id)init {
-    self = [super init];
+    self = [self initWithBaseURL:[NSURL URLWithString:APIURLDeployBase]];
     if (self) {
         // 设置属性
+        self.parameterEncoding = AFFormURLParameterEncoding;
         
         // 配置网络
-        if (DEBUG) {
+        if (RFDEBUG) {
             [[AFHTTPRequestOperationLogger sharedLogger] startLogging];
+            [AFHTTPRequestOperationLogger sharedLogger].level = AFLoggerLevelFatal;
         }
         [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
-        _core = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:APIURLDeployBase]];
         
         // 设置环境监听
-        __weak __typeof__(self) selfRef = self;
-        [_core setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        __weak __typeof(&*self)weakSelf = self;
+        [self setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
             if (status == AFNetworkReachabilityStatusReachableViaWiFi) {
-                if (!selfRef.hasAutoSynced) {
+                if (!weakSelf.hasAutoSynced) {
 
-                    [selfRef autoUpdate];
-                    selfRef.hasAutoSynced = NO;
+                    [weakSelf autoUpdate];
+                    weakSelf.hasAutoSynced = NO;
                 }
             }
         }];
@@ -88,13 +77,14 @@ static NSString *const APIURLLogin = @"/no";
     return self;
 }
 
+#pragma mark - 通用流程
+// API 初始化后的检查
 - (void)contextCheck {
     @autoreleasepool {
-
+        
     }
 }
 
-#pragma mark -
 - (void)requestUpdate {
     if (!self.isUpdating) {
         [self doUpdate];
@@ -105,8 +95,7 @@ static NSString *const APIURLLogin = @"/no";
     NSDate *lastUpdateCheckTime = [[NSUserDefaults standardUserDefaults] objectForKey:UDkLastUpdateCheckTime];
     
     if (lastUpdateCheckTime && !DebugAPIUpdateForceAutoUpdate) {
-        NSTimeInterval updateCheckInterval = [self.configInfo doubleForKey:CPkAutoUpdateCheckInterval];
-        if (fabs([lastUpdateCheckTime timeIntervalSinceNow]) < updateCheckInterval) return;
+        if (fabs([lastUpdateCheckTime timeIntervalSinceNow]) < APIConfigAutoUpdateCheckInterval) return;
     }
     
     if (self.isNetworkReachable) {
@@ -126,7 +115,6 @@ static NSString *const APIURLLogin = @"/no";
     // TODO: 更新操作
 }
 
-#pragma mark - 更新结束
 /// 执行更新后的工作，需保证必定能被调用
 - (void)afterUpdate {
     dout_info(@"更新完毕")
@@ -134,16 +122,25 @@ static NSString *const APIURLLogin = @"/no";
     self.updating = NO;
 }
 
-#pragma mark - 
+#pragma mark - 具体业务
+// TODO: 用户信息存取，而且直接放UserDefault极不安全
 - (void)loginWithUserName:(NSString *)name pass:(NSString *)pass callback:(void (^)(BOOL success, NSString *message))callback {
+    // 注意：不是每个流程无 callback 都直接返回，因为登录操作无回调无意义所以直接返回了
     if (!callback) return;
     
-    NSString *userName = name;
+    if (!DebugAPIEnableTestProfile) {
+        RFAssert(name, @"用户名不能为空");
+        name = @"";
+        RFAssert(pass, @"密码不能为空");
+        pass = @"";
+    }
+    
+    NSString *userName = (DebugAPIEnableTestProfile)? DebugAPITestProfileName : name;
     if (self.isNetworkReachable) {
-        [self.core postPath:APIURLLogin parameters:@{
-         @"login" : userName,
-         @"password" : pass,
-         @"mac_address" : self.macAddress
+        [self postPath:APIURLLogin parameters:@{
+             @"login" : userName,
+             @"password" : (DebugAPITestProfileName)? DebugAPITestProfilePassword : pass,
+             @"mac_address" : self.macAddress
          } success:^(AFHTTPRequestOperation *operation, id responseObject) {
              NSDictionary *info = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
              douto(info)
@@ -159,12 +156,17 @@ static NSString *const APIURLLogin = @"/no";
     }
     else {
         // 离线登陆
-        if ([[[NSUserDefaults standardUserDefaults] stringForKey:UDkUserName] isEqualToString:name]
-            && [[[NSUserDefaults standardUserDefaults] stringForKey:UDkUserPass] isEqualToString:pass]) {
-            callback(YES, @"OK");
+        if (APIConfigOfflineLoginEnabled) {
+            if ([[[NSUserDefaults standardUserDefaults] stringForKey:UDkUserName] isEqualToString:name]
+                && [[[NSUserDefaults standardUserDefaults] stringForKey:UDkUserPass] isEqualToString:pass]) {
+                callback(YES, @"OK");
+            }
+            else {
+                callback(NO, @"用户名与密码不匹配");
+            }
         }
         else {
-            callback(NO, @"用户名与密码不匹配");
+            callback(NO, @"无网络连接");
         }
     }
 }
