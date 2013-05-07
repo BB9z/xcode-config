@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.github.bb9z.iOS-Project-Template.MBBuildSystem</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.base</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>ver 0.2 将 MBBuildSystem 加入到项目中</string>
+	<key>Options</key>
+	<array/>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>TargetType</key>
+			<string>Legacy</string>
+			<key>BuildToolPath</key>
+			<string>./Scripts/MBAutoBuildScript.sh</string>
+			<key>BuildToolArgsString</key>
+			<string></string>
+			<key>SharedSettings</key>
+			<dict/>
+			<key>Configurations</key>
+			<dict>
+				<key>Debug</key>
+				<dict>
+					<key>CodeCommentsHighlightKeywordsExpression</key>
+					<string>TODO|FIXME|\\?\\?\\?|\\!\\!\\!|MARK</string>
+					<key>CodeCommentsHighlightSkipFrameworks</key>
+					<string>YES</string>
+					<key>CodeReviewFixRightNowKeywordsExpression</key>
+					<string>FUCK|FIXRIGHTNOW</string>
+					<key>EnableAutoGroupSortByName</key>
+					<string>YES</string>
+					<key>EnableChangeProductNameRemind</key>
+					<string>YES</string>
+					<key>EnableCodeCommentsHighlight</key>
+					<string>YES</string>
+					<key>ProjectFilePath</key>
+					<string>${SRCROOT}/${PROJECT}.xcodeproj</string>
+					<key>ScriptPath</key>
+					<string>$SRCROOT/Scripts</string>
+				</dict>
+				<key>Release</key>
+				<dict>
+					<key>CodeCommentsHighlightKeywordsExpression</key>
+					<string>TODO|FIXME|\\?\\?\\?|\\!\\!\\!|MARK</string>
+					<key>CodeCommentsHighlightSkipFrameworks</key>
+					<string>YES</string>
+					<key>CodeReviewFixRightNowKeywordsExpression</key>
+					<string>FUCK|FIXRIGHTNOW</string>
+					<key>EnableAutoGroupSortByName</key>
+					<string>YES</string>
+					<key>EnableChangeProductNameRemind</key>
+					<string>YES</string>
+					<key>EnableCodeCommentsHighlight</key>
+					<string>YES</string>
+					<key>ProjectFilePath</key>
+					<string>${SRCROOT}/${PROJECT}.xcodeproj</string>
+					<key>ScriptPath</key>
+					<string>$SRCROOT/Scripts</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
