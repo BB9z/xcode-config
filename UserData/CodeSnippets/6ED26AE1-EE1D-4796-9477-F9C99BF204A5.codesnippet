@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@keypath</string>
+	<string>@keypathClassInstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@keypath(&lt;#Obj#&gt;, &lt;#keypath#&gt;)</string>
+	<string>@keypathClassInstance(&lt;#...#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07260AEE-EB6E-4C8A-951C-0E5EC6EB7AF9</string>
+	<string>6ED26AE1-EE1D-4796-9477-F9C99BF204A5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

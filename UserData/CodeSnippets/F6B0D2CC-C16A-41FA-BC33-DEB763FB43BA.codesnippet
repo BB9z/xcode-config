@@ -10,8 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    if ([keyPath isEqualToString:@keypath(self, &lt;#PATH#&gt;)]) {
-        &lt;#statements#&gt;
+    if (context == &lt;#self context#&gt;) {
+        if ([keyPath isEqualToString:@keypath(self, &lt;#PATH#&gt;)]) {
+            &lt;#statements#&gt;
+        }
     }
     else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
@@ -27,7 +29,7 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     
-    [self removeObserver:self forKeyPath:@keypath(self, &lt;#PATH#&gt;)];
+    [self removeObserver:self forKeyPath:@keypath(self, &lt;#PATH#&gt;) context:NULL];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F6B0D2CC-C16A-41FA-BC33-DEB763FB43BA</string>
