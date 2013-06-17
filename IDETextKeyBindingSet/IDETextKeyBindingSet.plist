@@ -286,10 +286,10 @@
 	</dict>
 	<key>Custom</key>
 	<dict>
-		<key>Duplicate Current Line</key>
-		<string>moveToBeginningOfLine:, deleteToEndOfLine:, yank:, insertNewline:, moveToBeginningOfLine:, yank:</string>
-		<key>Delete Current Line</key>
-		<string>deleteToBeginningOfLine:, moveToEndOfLine:, deleteToBeginningOfLine:, deleteBackward:, moveDown:, moveToBeginningOfLine:</string>
+		<key>Duplicate Current Paragraph</key>
+		<string>selectParagraph:, delete:, yank:, moveToBeginningOfParagraph:, yank:, moveUp:, moveToEndOfParagraph:</string>
+		<key>Delete Current Paragraph</key>
+		<string>selectParagraph:, delete:, moveUp:, moveToEndOfParagraph:</string>
 	</dict>
 </dict>
 </plist>

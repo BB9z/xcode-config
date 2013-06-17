@@ -747,31 +747,29 @@
 				<string>moveToBeginningOfParagraph:</string>
 				<string>moveBackward:</string>
 				<string>deleteToMark:</string>
-				<string>deleteToBeginningOfLine:</string>
+			</array>
+			<key>$@</key>
+			<array>
+				<string>selectParagraph:</string>
+				<string>delete:</string>
+				<string>moveUp:</string>
+				<string>moveToEndOfParagraph:</string>
 			</array>
 			<key>$</key>
 			<string>deleteWordForward:</string>
-			<key>@</key>
-			<array>
-				<string>deleteToBeginningOfLine:</string>
-				<string>moveToEndOfLine:</string>
-				<string>deleteToBeginningOfLine:</string>
-				<string>deleteBackward:</string>
-				<string>moveDown:</string>
-				<string>moveToBeginningOfLine:</string>
-			</array>
 			<key>^$Y</key>
 			<string>yankAndSelect:</string>
 			<key>^\\</key>
 			<string>selectLine:</string>
 			<key>^d</key>
 			<array>
-				<string>moveToBeginningOfLine:</string>
-				<string>deleteToEndOfLine:</string>
+				<string>selectParagraph:</string>
+				<string>delete:</string>
 				<string>yank:</string>
-				<string>insertNewline:</string>
-				<string>moveToBeginningOfLine:</string>
+				<string>moveToBeginningOfParagraph:</string>
 				<string>yank:</string>
+				<string>moveUp:</string>
+				<string>moveToEndOfParagraph:</string>
 			</array>
 			<key>^x</key>
 			<dict>
