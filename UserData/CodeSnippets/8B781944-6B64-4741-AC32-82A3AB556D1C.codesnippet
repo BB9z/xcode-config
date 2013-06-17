@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@keyboard</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+    
+}
+
+- (void)keyboardWillShow:(NSNotification *)notification {
+    UIScrollView *sv = &lt;#something#&gt;;
+    NSDictionary *userInfo = notification.userInfo;
+    CGRect keyboardRect = [userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
+    
+    CGFloat keyboardHight = [RFKeyboard convertKeyboardFrame:keyboardRect toView:self.view].size.height;
+    
+    sv.contentSize = sv.bounds.size;
+    [UIView animateWithDuration:[userInfo[UIKeyboardAnimationDurationUserInfoKey] floatValue] animations:^{
+        sv.contentInset = UIEdgeInsetsMake(0, 0, keyboardHight, 0);
+        if (self.&lt;#textField#&gt;.isFirstResponder) {
+            [sv scrollRectToVisible:self.&lt;#textField#&gt;.frame animated:YES];
+        }
+        
+        if (self.opinionTextView.isFirstResponder) {
+            [sv scrollRectToVisible:self.opinionTextView.frame animated:YES];
+        }
+    }];
+}
+
+- (void)keyboardWillHide:(NSNotification *)notification {
+    UIScrollView *sv = self.&lt;#someview#&gt;;
+    [UIView animateWithDuration:[notification.userInfo[UIKeyboardAnimationDurationUserInfoKey] floatValue] animations:^{
+        sv.contentInset = UIEdgeInsetsZero;
+        sv.contentOffset = CGPointZero;
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B781944-6B64-4741-AC32-82A3AB556D1C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Keyboard Hide/Show</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

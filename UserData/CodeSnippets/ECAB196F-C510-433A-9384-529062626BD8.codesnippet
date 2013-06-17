@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@enum</string>
+	<string>enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef enum {
-	&lt;#enumerator1#&gt; = &lt;#value1#&gt;,
-	&lt;#enumerator2#&gt; = &lt;#value2#&gt;
-} &lt;#enumeration name#&gt;;</string>
+	<string>typedef NS_OPTIONS(&lt;#type#&gt;, &lt;#name#&gt;) {
+    &lt;#v0#&gt; = 0,
+    &lt;#v1#&gt; = 1 &lt;&lt; 0,
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C8FA19CA-114B-4C29-B1AE-B1C5A0271319</string>
+	<string>ECAB196F-C510-433A-9384-529062626BD8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Using NS_OPTIONS</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>enum define</string>
+	<string>Typedef options</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
