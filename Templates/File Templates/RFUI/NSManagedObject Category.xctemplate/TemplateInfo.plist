@@ -57,12 +57,28 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Summary</key>
+			<string>是否附带 JSONModel 相关代码</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>JSONModel</string>
+			<key>Name</key>
+			<string>Useing JSONModel</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Values</key>
+			<array>
+				<string>JSONModel</string>
+			</array>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>An Objective-C category with a header for Cocoa Touch</string>
+	<string>创建 NSManagedObject Category</string>
 </dict>
 </plist>

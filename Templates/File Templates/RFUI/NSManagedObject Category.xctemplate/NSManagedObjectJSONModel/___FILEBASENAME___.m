@@ -10,4 +10,9 @@ NSString *const CDEN___VARIABLE_categoryClass:identifier___ = @"___VARIABLE_cate
     return [self objectWithValue:@(ssid) forKey:@keypathClassInstance(___VARIABLE_categoryClass:identifier___, <#identifier#>) inContext:[DataStack sharedInstance].managedObjectContext creatIfNotExist:creatIfNotExist];
 }
 
++ (instancetype)persistentJSONObject:(___VARIABLE_categoryClass:identifier___JSONObject *)JSONObject {
+    ___VARIABLE_categoryClass:identifier___ *obj = <#self#>
+    return obj;
+}
+
 @end
