@@ -9,10 +9,10 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)set&lt;#property#&gt;:(&lt;#type#&gt;)&lt;#newVaule#&gt; {
-    if (&lt;#_iVar#&gt; != &lt;#newVaule#&gt;) {
+	<string>- (void)set&lt;#property#&gt; {
+    if (_&lt;#iVar#&gt; != &lt;#newVaule#&gt;) {
         [self willChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
-        &lt;#_iVar#&gt; = &lt;#newVaule#&gt;;
+        _&lt;#iVar#&gt; = &lt;#newVaule#&gt;;
         [self didChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
     }
 }</string>
