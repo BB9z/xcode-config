@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.character</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>XHei-Mono - 16.0</string>
+		<string>Menlo-Regular - 16.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>XHei-Mono - 16.0</string>
+		<string>Menlo-Regular - 16.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>XHei-Mono - 16.0</string>
+		<string>Menlo-Regular - 16.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.number</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.string</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 		<key>xcode.syntax.url</key>
-		<string>XHei-Mono - 18.0</string>
+		<string>Menlo-Regular - 18.0</string>
 	</dict>
 </dict>
 </plist>
