@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(copy, nonatomic) void (^&lt;#block name#&gt;)(void);</string>
+	<string>@property (copy, nonatomic) void (^&lt;#block name#&gt;)(void);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
 	<key>IDECodeSnippetLanguage</key>
