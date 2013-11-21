@@ -13,7 +13,7 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>ver 0.2 将 MBBuildSystem 加入到项目中</string>
+	<string>ver 0.21 将 MBBuildSystem 加入到项目中</string>
 	<key>Options</key>
 	<array/>
 	<key>Targets</key>
@@ -36,7 +36,7 @@
 					<key>CodeCommentsHighlightSkipFrameworks</key>
 					<string>YES</string>
 					<key>CodeReviewFixRightNowKeywordsExpression</key>
-					<string>FUCK|FIXRIGHTNOW</string>
+					<string>FUCK|FIXRIGHTNOW|NOTICE</string>
 					<key>EnableAutoGroupSortByName</key>
 					<string>YES</string>
 					<key>EnableChangeProductNameRemind</key>
@@ -55,7 +55,7 @@
 					<key>CodeCommentsHighlightSkipFrameworks</key>
 					<string>YES</string>
 					<key>CodeReviewFixRightNowKeywordsExpression</key>
-					<string>FUCK|FIXRIGHTNOW</string>
+					<string>FUCK|FIXRIGHTNOW|NOTICE</string>
 					<key>EnableAutoGroupSortByName</key>
 					<string>YES</string>
 					<key>EnableChangeProductNameRemind</key>
