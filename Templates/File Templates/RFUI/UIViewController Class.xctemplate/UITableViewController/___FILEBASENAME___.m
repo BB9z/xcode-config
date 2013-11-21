@@ -13,7 +13,7 @@
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
-RFUIInterfaceOrientationSupportAll
+RFUIInterfaceOrientationSupportDefault
 
 - (void)viewDidLoad {
     [super viewDidLoad];

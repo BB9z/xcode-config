@@ -5,6 +5,6 @@
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
-RFUIInterfaceOrientationSupportAll
+RFUIInterfaceOrientationSupportDefault
 
 @end
