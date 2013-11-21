@@ -18,4 +18,6 @@ Xcode 配置文件
   
 安装
 ----
-执行目录下的 setup.sh。不保证正确性，Use on your own risk.
+执行目录 install.command 以安装，Xcode 更新后需要重新安装键绑定（使用 reinstall-keybing.command 就行）。
+
+Xcode 需要安装在 /Applications 目录下。不保证正确性，Use on your own risk.
