@@ -11,9 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)set&lt;#property#&gt; {
     if (_&lt;#iVar#&gt; != &lt;#newVaule#&gt;) {
-        [self willChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
         _&lt;#iVar#&gt; = &lt;#newVaule#&gt;;
-        [self didChangeValueForKey:@keypath(self, &lt;#property#&gt;)];
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

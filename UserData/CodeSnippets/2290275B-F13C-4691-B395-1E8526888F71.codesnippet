@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>$+</string>
+	<string>@doc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -13,7 +13,11 @@
  @const 常量，与名称一致 eg. "NSURLErrorFailingURLErrorKey"
  @enum 常量 eg. "NSURL-related Error Codes"
  @function 函数
+ @class interface
+ @protocol myProtocol
+ @category myMainClass(myCategory)
  @abstract 描述语句
+ @define MACRO_NAME
  
  @discussion 进一步讨论
  
