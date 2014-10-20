@@ -8,8 +8,6 @@
 
 ___IMPORTHEADER_categoryClass___
 
-extern NSString *const CDEN___VARIABLE_categoryClass:identifier___;
-
 @interface ___VARIABLE_categoryClass:identifier___ (___VARIABLE_categoryName:identifier___)
 + (instancetype)entityWith<#identifier#>:(id)<#identifier#> creatIfNotExist:(BOOL)creatIfNotExist;
 

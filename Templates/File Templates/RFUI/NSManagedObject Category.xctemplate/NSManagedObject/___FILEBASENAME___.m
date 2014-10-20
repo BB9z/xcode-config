@@ -2,8 +2,6 @@
 #import "___FILEBASENAME___.h"
 #import "DataStack.h"
 
-NSString *const CDEN___VARIABLE_categoryClass:identifier___ = @"___VARIABLE_categoryClass:identifier___";
-
 @implementation ___VARIABLE_categoryClass:identifier___ (___VARIABLE_categoryName:identifier___)
 
 + (instancetype)entityWith<#identifier#>:(id)<#identifier#> creatIfNotExist:(BOOL)creatIfNotExist {

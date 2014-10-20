@@ -13,3 +13,6 @@ ___IMPORTHEADER_cocoaSubclass___
 
 @property (strong, nonatomic) NSString<Optional> *title;
 @end
+
+@protocol ___FILEBASENAMEASIDENTIFIER___ <NSObject>
+@end

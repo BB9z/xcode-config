@@ -11,8 +11,6 @@
 	<string>MyViewController</string>
 	<key>Description</key>
 	<string>UIViewController子类</string>
-	<key>SortOrder</key>
-	<string>20</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -39,28 +37,31 @@
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
 			<key>FallbackHeader</key>
-			<string>#import &quot;RFRuntime.h&quot;</string>
+			<string>#import "RFRuntime.h"</string>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
 			<string>Subclass of</string>
 			<key>Required</key>
 			<true/>
-			<key>Type</key>
-			<string>class</string>
 			<key>Suffixes</key>
 			<dict>
+				<key>MBFormViewController</key>
+				<string>ViewController</string>
+				<key>RFFetchedResultsTableViewController</key>
+				<string>ListViewController</string>
+				<key>UITableViewController</key>
+				<string>ListViewController</string>
 				<key>UIViewController</key>
 				<string>ViewController</string>
-				<key>UITableViewController</key>
-				<string>TableViewController</string>
-				<key>RFFetchedResultsTableViewController</key>
-				<string>List</string>
 			</dict>
+			<key>Type</key>
+			<string>class</string>
 			<key>Values</key>
 			<array>
 				<string>UIViewController</string>
 				<string>UITableViewController</string>
+				<string>MBFormViewController</string>
 				<string>RFFetchedResultsTableViewController</string>
 			</array>
 		</dict>
@@ -86,5 +87,7 @@
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
+	<key>SortOrder</key>
+	<string>20</string>
 </dict>
 </plist>
