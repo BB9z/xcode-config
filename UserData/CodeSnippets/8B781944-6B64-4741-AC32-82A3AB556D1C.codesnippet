@@ -9,7 +9,26 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated {
+	<string>@property (strong, nonatomic) id keyboardShowObserver;
+@property (strong, nonatomic) id keyboardHideObserver;
+
+#pragma mark - Keyboard
+
+- (void)setKeyboardShowObserver:(id)keyboardShowObserver {
+    if (_keyboardShowObserver) {
+        [[NSNotificationCenter defaultCenter] removeObserver:_keyboardShowObserver];
+    }
+    _keyboardShowObserver = keyboardShowObserver;
+}
+
+- (void)setKeyboardHideObserver:(id)keyboardHideObserver {
+    if (_keyboardHideObserver) {
+        [[NSNotificationCenter defaultCenter] removeObserver:_keyboardHideObserver];
+    }
+    _keyboardHideObserver = keyboardHideObserver;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     UIScrollView *sv = &lt;#something#&gt;;
     self.keyboardShowObserver = [[NSNotificationCenter defaultCenter] addObserverForName:UIKeyboardWillShowNotification object:nil queue:nil usingBlock:^(NSNotification *note) {
@@ -34,8 +53,6 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [[NSNotificationCenter defaultCenter] removeObserver:self.keyboardShowObserver];
-    [[NSNotificationCenter defaultCenter] removeObserver:self.keyboardHideObserver];
     self.keyboardShowObserver = nil;
     self.keyboardHideObserver = nil;
 }</string>
