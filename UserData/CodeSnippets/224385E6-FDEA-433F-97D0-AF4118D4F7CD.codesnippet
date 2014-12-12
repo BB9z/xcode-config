@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MBEntityExchangingPrepareForSegue</string>
+	<string>newFromStoryboard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    id dvc = segue.destinationViewController;
-    if ([dvc respondsToSelector:@selector(setItem:)]) {
-        if ([sender respondsToSelector:@selector(item)]) {
-            [dvc setItem:[(id&lt;MBEntityExchanging&gt;)sender item]];
-        }
-        else if ([self respondsToSelector:@selector(item)]) {
-            [dvc setItem:[(id&lt;MBEntityExchanging&gt;)self item]];
-        }
-    }
+	<string>+ (instancetype)newFromStoryboard {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"&lt;#name#&gt;" bundle:nil];
+    return [sb instantiateViewControllerWithIdentifierUsingClass:[self class]];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DDB750BB-CFDA-4395-98D2-9427618F81C1</string>
+	<string>224385E6-FDEA-433F-97D0-AF4118D4F7CD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Load scene from specified storyboard</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Segue Prepare General</string>
+	<string>newFromStoryboard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -12,20 +12,29 @@
 	<string>- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     id dvc = segue.destinationViewController;
     if ([dvc respondsToSelector:@selector(setItem:)]) {
+        id item;
         if ([sender respondsToSelector:@selector(item)]) {
-            [dvc setItem:[(id&lt;MBEntityExchanging&gt;)sender item]];
+            item = [(id&lt;MBEntityExchanging&gt;)sender item];
         }
-        else if ([self respondsToSelector:@selector(item)]) {
-            [dvc setItem:[(id&lt;MBEntityExchanging&gt;)self item]];
+        else {
+            item = [UITableViewCell itemFromSender:sender];
         }
+
+        if (!item) {
+            item = self.item;
+        }
+
+        [dvc setItem:item];
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DDB750BB-CFDA-4395-98D2-9427618F81C1</string>
+	<string>6158BC22-5E59-4648-B24F-92E3D641CA5E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Table view cell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Segue Prepare General</string>
+	<string>Segue Prepare For TableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
