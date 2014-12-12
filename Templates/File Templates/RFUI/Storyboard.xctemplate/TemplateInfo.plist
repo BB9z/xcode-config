@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>禁用 Size Classes，界面默认 3.5 寸</string>
+	<key>Icon</key>
+	<string>TemplateIcon</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.storyboard</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>0</integer>
+	<key>Summary</key>
+	<string>3.5-inch default size, no size classes</string>
+	<key>Title</key>
+	<string>Storyboard Template</string>
+</dict>
+</plist>
