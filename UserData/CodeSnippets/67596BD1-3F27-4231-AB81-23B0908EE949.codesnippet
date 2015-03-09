@@ -3,28 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@sharedInstance</string>
+	<string>@alert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedInstance {
-	static id sharedInstance = nil;
-    static dispatch_once_t oncePredicate;
-    dispatch_once(&amp;oncePredicate, ^{
-        sharedInstance = [[self alloc] init];
-    });
-	return sharedInstance;
+	<string>/*
+ UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"确认？" message:nil delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确认", nil];
+ av.tag = tag;
+ [av show];
+ */
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == alertView.cancelButtonIndex) return;
+
+    if (alertView.tag == 100 &amp;&amp; buttonIndex) {
+
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>87429E87-BD38-40C2-B9C9-F52FE43E9243</string>
+	<string>67596BD1-3F27-4231-AB81-23B0908EE949</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Share instance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Singletons</string>
+	<string>Show Alert with delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

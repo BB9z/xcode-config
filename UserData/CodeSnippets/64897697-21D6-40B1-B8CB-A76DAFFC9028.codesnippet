@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@init</string>
+	<string>NSUserDefaults</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)init {
-    if (self = [super init]) {
-        
-    }
-    return self;
-}</string>
+	<string>NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4EBAA5BC-7DBE-4C6B-8020-420FED6D9FB1</string>
+	<string>64897697-21D6-40B1-B8CB-A76DAFFC9028</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Class init</string>
+	<string>NSUserDefaults</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
