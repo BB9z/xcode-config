@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pw</string>
+	<string>@getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>- (&lt;#type#&gt;)&lt;#name#&gt; {
+    if (&lt;#ivar#&gt;) return &lt;#ivar#&gt;;
+    &lt;#ivar#&gt; = &lt;#something#&gt;;
+    return &lt;#ivar#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>794DF213-B614-4F55-B3E0-6C825EDE6210</string>
+	<string>FF491D7B-DF2D-4D77-BA60-2BF57DF0787C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (weak, nonatomic)</string>
+	<string>User define property getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

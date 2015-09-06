@@ -3,29 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@collectionViewDataSource</string>
+	<string>@tableViewDataSource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UICollectionViewDataSource
+	<string>#pragma mark - UITableView DataSource
 
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return &lt;#count#&gt;;
+- (id)itemAtIndexPath:(NSIndexPath *)indexPath {
+    return self.items[indexPath.row];
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    &lt;#CellClass#&gt; *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
-    &lt;#cell config#&gt;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.items.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    id item = [self itemAtIndexPath:indexPath];
+    UITableViewCell *cell = [tableView rf_dequeueReusableCellWithIdentifier:@"Cell"];
+
     return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5B63F32A-82D0-4AE0-8C84-0E707682355D</string>
+	<string>A531D255-F22A-4CD3-A541-BF9645D44455</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UICollectionView DataSource</string>
+	<string>UITableView DataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
