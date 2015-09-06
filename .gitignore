@@ -7,3 +7,4 @@ UserData/SearchScopes.xcsclist
 UserData/ServerBots.plist
 Backup/
 *.bak
+UserData/IB Support/Simulator Devices/
