@@ -245,13 +245,13 @@
 		<string>moveToRightEndOfLine:</string>
 		<key>Move to Right End of Line Extending Selection</key>
 		<string>moveToRightEndOfLineAndModifySelection:</string>
-		<key>Page Down</key>
+		<key>Move Page Down</key>
 		<string>pageDown:</string>
-		<key>Page Down Extending Selection</key>
+		<key>Move Page Down Extending Selection</key>
 		<string>pageDownAndModifySelection:</string>
-		<key>Page Up</key>
+		<key>Move Page Up</key>
 		<string>pageUp:</string>
-		<key>Page Up Extending Selection</key>
+		<key>Move Page Up Extending Selection</key>
 		<string>pageUpAndModifySelection:</string>
 		<key>Select All</key>
 		<string>selectAll:</string>
