@@ -31,7 +31,7 @@
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.12 0.31 0.34 1</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.0795977 0.0804297 0.0804002 1</string>
+	<string>0.0784314 0.0784314 0 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>

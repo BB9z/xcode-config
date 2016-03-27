@@ -30,8 +30,42 @@
 	<string>0.496 0.496 0.378 1</string>
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.12 0.31 0.34 1</string>
+	<key>DVTMarkupTextBackgroundColor</key>
+	<string>0.15323 0.153995 0.153968 1</string>
+	<key>DVTMarkupTextBorderColor</key>
+	<string>0.220971 0.221676 0.221651 1</string>
+	<key>DVTMarkupTextCodeFont</key>
+	<string>XHei-Mono - 12.0</string>
+	<key>DVTMarkupTextEmphasisColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextEmphasisFont</key>
+	<string>XHei-MonoItalic - 12.0</string>
+	<key>DVTMarkupTextLinkColor</key>
+	<string>0.293369 0.59631 0.981358 1</string>
+	<key>DVTMarkupTextLinkFont</key>
+	<string>XHei-Mono - 12.0</string>
+	<key>DVTMarkupTextNormalColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextNormalFont</key>
+	<string>XHei-Mono - 12.0</string>
+	<key>DVTMarkupTextOtherHeadingColor</key>
+	<string>1 1 1 0.5</string>
+	<key>DVTMarkupTextOtherHeadingFont</key>
+	<string>XHei-Mono - 16.8</string>
+	<key>DVTMarkupTextPrimaryHeadingColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextPrimaryHeadingFont</key>
+	<string>XHei-Mono - 28.8</string>
+	<key>DVTMarkupTextSecondaryHeadingColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextSecondaryHeadingFont</key>
+	<string>XHei-Mono - 21.6</string>
+	<key>DVTMarkupTextStrongColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextStrongFont</key>
+	<string>XHei-MonoBold - 12.0</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.0795977 0.0804297 0.0804002 1</string>
+	<string>0.0784314 0.0784314 0 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
