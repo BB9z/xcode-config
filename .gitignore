@@ -8,3 +8,4 @@ UserData/ServerBots.plist
 Backup/
 *.bak
 UserData/IB Support/Simulator Devices/
+UserData/XcodeServer/Logs/
