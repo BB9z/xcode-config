@@ -30,6 +30,40 @@
 	<string>0.496 0.496 0.378 1</string>
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.12 0.31 0.34 1</string>
+	<key>DVTMarkupTextBackgroundColor</key>
+	<string>0.0980392 0.0980392 0.0980392 1</string>
+	<key>DVTMarkupTextBorderColor</key>
+	<string>0.170196 0.170196 0.170196 1</string>
+	<key>DVTMarkupTextCodeFont</key>
+	<string>Menlo-Regular - 17.0</string>
+	<key>DVTMarkupTextEmphasisColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextEmphasisFont</key>
+	<string>.AppleSystemUIFontItalic - 17.0</string>
+	<key>DVTMarkupTextLinkColor</key>
+	<string>0.19595 0.472094 0.973331 1</string>
+	<key>DVTMarkupTextLinkFont</key>
+	<string>.AppleSystemUIFont - 17.0</string>
+	<key>DVTMarkupTextNormalColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextNormalFont</key>
+	<string>.AppleSystemUIFont - 17.0</string>
+	<key>DVTMarkupTextOtherHeadingColor</key>
+	<string>1 1 1 0.5</string>
+	<key>DVTMarkupTextOtherHeadingFont</key>
+	<string>.AppleSystemUIFont - 23.8</string>
+	<key>DVTMarkupTextPrimaryHeadingColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextPrimaryHeadingFont</key>
+	<string>.AppleSystemUIFont - 40.8</string>
+	<key>DVTMarkupTextSecondaryHeadingColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextSecondaryHeadingFont</key>
+	<string>.AppleSystemUIFont - 30.6</string>
+	<key>DVTMarkupTextStrongColor</key>
+	<string>1 1 1 1</string>
+	<key>DVTMarkupTextStrongFont</key>
+	<string>.AppleSystemUIFontBold - 17.0</string>
 	<key>DVTSourceTextBackground</key>
 	<string>0.0196078 0.0196078 0.0196078 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>

@@ -5,23 +5,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>1 0.55553 0.412928 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>XHei - 11.0</string>
+	<string>XHei-Mono - 11.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>XHei - 11.0</string>
+	<string>XHei-Mono - 11.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.255 0.714 0.27 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>XHei - 11.0</string>
+	<string>XHei-Mono - 11.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>1 0.135691 0.168254 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>XHei - 11.0</string>
+	<string>XHei-Mono - 11.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>XHei - 11.0</string>
+	<string>XHei-Mono - 11.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.118 0.125 0.157 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -39,7 +39,9 @@
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>XHei-MonoItalic - 12.0</string>
+	<string>XHei-Mono - 12.0</string>
+	<key>DVTMarkupTextInlineCodeColor</key>
+	<string>1 1 1 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.293369 0.59631 0.981358 1</string>
 	<key>DVTMarkupTextLinkFont</key>
@@ -63,7 +65,7 @@
 	<key>DVTMarkupTextStrongColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>XHei-MonoBold - 12.0</string>
+	<string>XHei-Mono - 12.0</string>
 	<key>DVTSourceTextBackground</key>
 	<string>0.0784314 0.0784314 0 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
