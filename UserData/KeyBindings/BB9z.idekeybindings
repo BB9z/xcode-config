@@ -136,7 +136,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.ToggleIssueShown</string>
 				<key>Group</key>
-				<string>Editor Menu for Data Model Comparison</string>
+				<string>Editor Menu for Asset Catalog</string>
 				<key>GroupID</key>
 				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
@@ -158,7 +158,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.BalanceDelimiter</string>
 				<key>Group</key>
-				<string>Editor Menu for Data Model Comparison</string>
+				<string>Editor Menu for Asset Catalog</string>
 				<key>GroupID</key>
 				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
@@ -356,52 +356,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>toggleIssueShown:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ToggleIssueShown</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ToggleIssueShown</string>
-				<key>Group</key>
-				<string>Editor Menu for Xcode.IDEKit.EditorDocument.SourceCode-from-Asset-Catalog-title</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^$@M</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Issue</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>balance:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.BalanceDelimiter</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.BalanceDelimiter</string>
-				<key>Group</key>
-				<string>Editor Menu for Xcode.IDEKit.EditorDocument.SourceCode-from-Asset-Catalog-title</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^b</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Structure</string>
-				<key>Title</key>
-				<string>Balance Delimiter</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>editActiveRunContext:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -509,16 +463,17 @@
 				<string>moveToBeginningOfParagraph:</string>
 				<string>moveBackward:</string>
 				<string>deleteToMark:</string>
+				<string>deleteToBeginningOfLine:</string>
 			</array>
-			<key>$@</key>
+			<key>$</key>
+			<string>deleteWordForward:</string>
+			<key>@</key>
 			<array>
 				<string>selectParagraph:</string>
 				<string>delete:</string>
 				<string>moveUp:</string>
 				<string>moveToEndOfParagraph:</string>
 			</array>
-			<key>$</key>
-			<string>deleteWordForward:</string>
 			<key>^$Y</key>
 			<string>yankAndSelect:</string>
 			<key>^\\</key>
