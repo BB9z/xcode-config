@@ -468,12 +468,7 @@
 			<key>$</key>
 			<string>deleteWordForward:</string>
 			<key>@</key>
-			<array>
-				<string>selectParagraph:</string>
-				<string>delete:</string>
-				<string>moveUp:</string>
-				<string>moveToEndOfParagraph:</string>
-			</array>
+			<string>deleteToBeginningOfParagraph:</string>
 			<key>^$Y</key>
 			<string>yankAndSelect:</string>
 			<key>^\\</key>
