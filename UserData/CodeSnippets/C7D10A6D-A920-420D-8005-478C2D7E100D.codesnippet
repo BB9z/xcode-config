@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@weakify(&lt;#...#&gt;)</string>
+	<string>@weakify(&lt;#self#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C7D10A6D-A920-420D-8005-478C2D7E100D</string>
 	<key>IDECodeSnippetLanguage</key>

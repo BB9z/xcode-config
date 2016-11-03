@@ -9,13 +9,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(&lt;#...#&gt;)</string>
+	<string>@strongify(&lt;#self#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B45EEA3-77F5-495F-9A6A-7615213B0C3E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>libextobjc strongify</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>EXTObjC strongify</string>
+	<string>@strongify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
