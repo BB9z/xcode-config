@@ -226,7 +226,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.ToggleIssueShown</string>
 				<key>Group</key>
-				<string>Editor Menu for Playground</string>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor Menu for Playground</string>
 				<key>GroupID</key>
 				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
@@ -248,7 +248,7 @@
 				<key>CommandID</key>
 				<string>Xcode.IDESourceEditor.CmdDefinition.BalanceDelimiter</string>
 				<key>Group</key>
-				<string>Editor Menu for Playground</string>
+				<string>Xcode.IDESourceEditor.MenuDefinition.Editor Menu for Playground</string>
 				<key>GroupID</key>
 				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
@@ -376,27 +376,11 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>windowMenu_showDocumentation:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.DeveloperDocumentation</string>
-				<key>Group</key>
-				<string>Window Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Documentation and API Reference</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>showDeveloperDocumentation:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.DeveloperDocumentation</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.DeveloperDocumentation</string>
 				<key>Group</key>
