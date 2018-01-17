@@ -2,6 +2,8 @@ UserData/AppDataSyncRecords
 UserData/IDESourceControlAuthors
 UserData/KeyBindings/Default.idekeybindings
 UserData/*.xcuserstate
+UserData/IDEEditorInteractivityHistory
+UserData/IDEFindNavigatorScopes.plist
 UserData/IDENamedTabStateContexts.plist
 UserData/SearchScopes.xcsclist
 UserData/ServerBots.plist
