@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>KVOContext</string>
+	<string>@blockweak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static void *const &lt;#name#&gt;KVOContext = (void *)&amp;&lt;#name#&gt;KVOContext;</string>
+	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
+    guard let `self` = self else { return }
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>39028068-577A-4066-83EA-2016EDF9FDAE</string>
+	<string>AD0C3502-934C-4731-98DD-FBADE09679CA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creat a static context for class.</string>
+	<string>With weak self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KVOContext</string>
+	<string>Closures</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

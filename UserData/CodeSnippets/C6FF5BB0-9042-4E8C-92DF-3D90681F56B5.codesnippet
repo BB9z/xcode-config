@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>KVOContext</string>
+	<string>@block</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static void *const &lt;#name#&gt;KVOContext = (void *)&amp;&lt;#name#&gt;KVOContext;</string>
+	<string>let block: (&lt;#parameter type#&gt;) -&gt; &lt;#return type#&gt; = { &lt;#[capturie list]#&gt; (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>39028068-577A-4066-83EA-2016EDF9FDAE</string>
+	<string>C6FF5BB0-9042-4E8C-92DF-3D90681F56B5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Creat a static context for class.</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KVOContext</string>
+	<string>Closures</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
