@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIAlertController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *alert = [UIAlertController alertControllerWithTitle:&lt;#title#&gt; message:&lt;#message#&gt; preferredStyle:UIAlertControllerStyleAlert];
+[alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;]];
+[self presentViewController:alert animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>219A7E08-79B4-4273-8A90-402526066E0F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Present an alert style controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertController - Alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

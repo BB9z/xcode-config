@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uialert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let alert = UIAlertController(title: &lt;#T##String?#&gt;, message: &lt;#T##String?#&gt;, preferredStyle: .alert)
+alert.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
+alert.addAction(UIAlertAction(title: &lt;#T##String?#&gt;, style: .destructive, handler: &lt;#T##((UIAlertAction) -&gt; Void)?##((UIAlertAction) -&gt; Void)?##(UIAlertAction) -&gt; Void#&gt;))
+present(alert, animated: true, completion: nil)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>194483F1-6B2F-42C6-AFBD-D228B43828AD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift: Present an alert style controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertController - Alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

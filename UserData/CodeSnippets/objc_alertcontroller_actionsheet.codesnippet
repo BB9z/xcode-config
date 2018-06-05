@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIAlertController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *sheet = [UIAlertController alertControllerWithTitle:&lt;#title#&gt; message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+[sheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", nil)  style:UIAlertActionStyleCancel handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;]];
+[self presentViewController:sheet animated:YES completion:nil];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8E599E25-622B-420C-A7B5-989788BA45DB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Present an action sheet style controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertController - ActionSheet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
