@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>ZYSPSomeView</string>
+	<key>Description</key>
+	<string>UIView 模版</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>UIView</string>
+			<key>Description</key>
+			<string>继承谁</string>
+			<key>FallbackHeader</key>
+			<string>#import "CommonUI.h"</string>
+			<key>Identifier</key>
+			<string>cocoaSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Suffixes</key>
+			<dict>
+				<key>UIView</key>
+				<string>View</string>
+			</dict>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>UIView</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>是否创建同名 XIB 文件</string>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>创建 XIB？</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>20</string>
+	<key>Summary</key>
+	<string>UIView 模版</string>
+</dict>
+</plist>
