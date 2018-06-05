@@ -3,29 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@RFKit</string>
+	<string>NSUserDefaults</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/*!
-    &lt;#part#&gt;
-    RFKit
- 
-    Copyright (c) 2013 BB9z
-    http://github.com/BB9z/RFKit
- 
-    The MIT License (MIT)
-    http://www.opensource.org/licenses/mit-license.php
- */</string>
+	<string>NSUserDefaults *ud = NSUserDefaults.standardUserDefaults;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D3B1925-DCFA-49ED-8DCD-D74E528DDFB2</string>
+	<string>64897697-21D6-40B1-B8CB-A76DAFFC9028</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RFKit header</string>
+	<string>NSUserDefaults</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

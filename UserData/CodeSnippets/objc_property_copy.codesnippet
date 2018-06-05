@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pi</string>
+	<string>pc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, nullable, weak) IBOutlet &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (copy, &lt;#nullability#&gt;, nonatomic) &lt;#NSObject&lt;NSCopying&gt;#&gt; *&lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AFF17898-F21A-4894-8831-9D428267ABDE</string>
+	<string>E4589F88-7724-4548-B3E9-2B5D4E2431C9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property IBOutlet</string>
+	<string>@property copy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

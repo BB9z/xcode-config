@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prw</string>
+	<string>iba</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, readwrite) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>- (IBAction)&lt;#selector#&gt;:(id)sender {
+	&lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AD1F4228-20D8-4353-9BA3-0F1C27BC10F3</string>
+	<string>7620C99A-A5C2-421D-AAFB-346739AB1BFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property readwrite</string>
+	<string>IBAction Selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
