@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) IBOutletCollection(&lt;#Class#&gt;) NSArray *&lt;#var#&gt;;</string>
+	<string>@property IBOutletCollection(&lt;#UIView#&gt;) NSArray *&lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F10BCA00-2CAE-461E-B031-339411456EF5</string>
 	<key>IDECodeSnippetLanguage</key>

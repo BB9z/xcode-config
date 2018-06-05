@@ -9,13 +9,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (!&lt;#some#&gt;) return &lt;#nil#&gt;;</string>
+	<string>if (!&lt;#some#&gt;) return&lt;# nil#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>19885117-82BE-4C7F-9B5B-61F8D9997520</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>if (!condition) return nil;</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>If</string>
+	<string>Objective-C If guard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

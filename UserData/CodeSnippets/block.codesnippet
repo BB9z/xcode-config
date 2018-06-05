@@ -17,6 +17,8 @@
 	<string>51A39038-8365-4322-8664-0BF2E1D47F16</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Block</string>
 	<key>IDECodeSnippetUserSnippet</key>

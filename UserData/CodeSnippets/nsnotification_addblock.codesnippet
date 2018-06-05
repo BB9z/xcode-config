@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.&lt;#observer#&gt; = [[NSNotificationCenter defaultCenter] addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
+	<string>self.&lt;#observer#&gt; = [NSNotificationCenter.defaultCenter addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
     douto(note)
 }];</string>
 	<key>IDECodeSnippetIdentifier</key>
