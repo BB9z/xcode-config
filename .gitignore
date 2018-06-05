@@ -1,11 +1,13 @@
 UserData/*.xcuserstate
 UserData/AppDataSyncRecords
+UserData/CoverageReport.xcstate
 UserData/IB Support/Simulator Devices/
 UserData/IDEEditorInteractivityHistory
 UserData/IDEFindNavigatorScopes.plist
 UserData/IDENamedTabStateContexts.plist
 UserData/IDESourceControlAuthors
 UserData/KeyBindings/Default.idekeybindings
+UserData/Portal
 UserData/SearchScopes.xcsclist
 UserData/ServerBots.plist
 UserData/TestReport.xcstate
