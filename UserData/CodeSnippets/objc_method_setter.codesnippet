@@ -18,8 +18,10 @@
 	<string>54FB7D9E-4D9E-4469-9B37-01EB9C54B92A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetTitle</key>
+	<key>IDECodeSnippetSummary</key>
 	<string>User define property setter</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C Setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

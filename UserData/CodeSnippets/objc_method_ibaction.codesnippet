@@ -10,14 +10,14 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (IBAction)&lt;#selector#&gt;:(id)sender {
-	&lt;#code#&gt;
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7620C99A-A5C2-421D-AAFB-346739AB1BFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction Selector</string>
+	<string>Objective-C -IBAction method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

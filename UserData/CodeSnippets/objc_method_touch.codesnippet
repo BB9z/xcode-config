@@ -10,11 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	NSArray * eventTouches = [[event touchesForView:self] allObjects];
-	if ([eventTouches count] == 2) {
-		CGPoint a = [[eventTouches objectAtIndex:0] locationInView:self];
-		CGPoint b = [[eventTouches objectAtIndex:1] locationInView:self];
-	}
+    NSArray * eventTouches = [[event touchesForView:self] allObjects];
+    if ([eventTouches count] == 2) {
+        CGPoint a = [[eventTouches objectAtIndex:0] locationInView:self];
+        CGPoint b = [[eventTouches objectAtIndex:1] locationInView:self];
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E8AFB5E3-8985-4E2E-AF5E-2C296C4E1A58</string>
@@ -23,7 +23,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>touchesBegan</string>
+	<string>Objective-C -touchesBegan method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

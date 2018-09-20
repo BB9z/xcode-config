@@ -14,10 +14,8 @@
 	<string>EC98F473-0678-48A8-8342-E68374AB650D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Protocol 前置声明</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Forward protocol</string>
+	<string>Objective-C Protocol Forward</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

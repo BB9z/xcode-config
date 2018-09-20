@@ -16,8 +16,10 @@
 	<string>C6FF5BB0-9042-4E8C-92DF-3D90681F56B5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Variable</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Closures</string>
+	<string>Swift closures</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

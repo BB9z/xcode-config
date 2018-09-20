@@ -9,11 +9,13 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@objc func debugCommands() -&gt; [UIBarButtonItem] {
+	<string>#if DEBUG
+@objc func debugCommands() -&gt; [UIBarButtonItem] {
     return [
         DebugMenuItem2(&lt;#T##title: String##String#&gt;, &lt;#T##actionBlock: () -&gt; Void##() -&gt; Void#&gt;)
     ]
-}</string>
+}
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FC8BECC6-BA43-41F1-B494-24D8B0E1BC7B</string>
 	<key>IDECodeSnippetLanguage</key>

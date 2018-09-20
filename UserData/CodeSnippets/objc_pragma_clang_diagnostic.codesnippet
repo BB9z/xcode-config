@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>clang diagnostic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Suppress Warning</string>
+	<string>Objective-C Suppress Warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

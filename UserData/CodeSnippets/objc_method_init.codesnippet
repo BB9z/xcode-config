@@ -13,8 +13,6 @@
     self = [super init];
     if (!self) return nil;
 
-
-
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -22,7 +20,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>Objective-C -init method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

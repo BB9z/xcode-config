@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Add observer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSNotification +observer</string>
+	<string>Objective-C NSNotification +observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -16,8 +16,10 @@
 	<string>60CBEE66-85E4-4293-B5C8-3F010BAECAE4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Auto mutex lock</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@synchronized Auto mutex lock</string>
+	<string>Objective-C @synchronized</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

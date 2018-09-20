@@ -10,12 +10,12 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>+ (instancetype)sharedInstance {
-	static id sharedInstance = nil;
+    static id sharedInstance = nil;
     static dispatch_once_t oncePredicate;
     dispatch_once(&amp;oncePredicate, ^{
         sharedInstance = [[self alloc] init];
     });
-	return sharedInstance;
+    return sharedInstance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>87429E87-BD38-40C2-B9C9-F52FE43E9243</string>
@@ -24,7 +24,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Share instance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Singletons</string>
+	<string>Objective-C +singletons method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

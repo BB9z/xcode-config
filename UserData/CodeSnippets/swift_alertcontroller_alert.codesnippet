@@ -21,9 +21,9 @@ present(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift: Present an alert style controller</string>
+	<string>Present an alert style controller</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIAlertController - Alert</string>
+	<string>Swift UIAlertController - Alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

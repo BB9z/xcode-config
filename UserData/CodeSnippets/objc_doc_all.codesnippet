@@ -33,9 +33,9 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2290275B-F13C-4691-B395-1E8526888F71</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Appledoc - 方法说明</string>
+	<string>Doc - example</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

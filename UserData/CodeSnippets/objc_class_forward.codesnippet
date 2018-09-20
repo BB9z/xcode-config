@@ -14,10 +14,8 @@
 	<string>D42C6B94-0CE9-41B8-AEB1-C0F982E2E458</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>为保证顺序的复写</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Class</string>
+	<string>Objective-C Class Forward</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
