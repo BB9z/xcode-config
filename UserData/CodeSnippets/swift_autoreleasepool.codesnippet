@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@blockweak</string>
+	<string>Autoreleasepool</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-    guard let `self` = self else { return }
-    &lt;#statements#&gt;
+	<string>autoreleasepool {
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AD0C3502-934C-4731-98DD-FBADE09679CA</string>
+	<string>B857EF30-BDBC-404E-A7E4-B771B9B5FD99</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>With weak self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Closures</string>
+	<string>Swift Autoreleasepool</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

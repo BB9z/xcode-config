@@ -21,10 +21,12 @@ class &lt;#ViewController#&gt;: UIViewController {
 	<string>5535D217-8827-4121-988C-BB87448A2C84</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class viewcontroller</string>
+	<string>class UIViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

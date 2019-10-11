@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@blockweak</string>
+	<string>debugCommands</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-    guard let `self` = self else { return }
-    &lt;#statements#&gt;
-}</string>
+	<string>#if DEBUG
+- (NSArray&lt;UIBarButtonItem *&gt; *)debugCommands {
+    return @[
+        DebugMenuItem2(&lt;#NSString * _Nonnull title#&gt;, &lt;#^(void)actionBlock#&gt;)
+    ];
+}
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AD0C3502-934C-4731-98DD-FBADE09679CA</string>
+	<string>C301A91C-2064-4EAB-8C4E-D1504051B32A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>With weak self</string>
+	<string>Objective-C - debugCommands()</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Closures</string>
+	<string>MBDebugCommandItemSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

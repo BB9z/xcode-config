@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@blockweak</string>
+	<string>item</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-    guard let `self` = self else { return }
-    &lt;#statements#&gt;
-}</string>
+	<string>@objc var item: &lt;#type#&gt;!</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AD0C3502-934C-4731-98DD-FBADE09679CA</string>
+	<string>342E4008-EA26-4177-9F26-BA01DED9DA1C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>With weak self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Closures</string>
+	<string>MBAppKit - item property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

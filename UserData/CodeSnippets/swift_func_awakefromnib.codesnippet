@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@blockweak</string>
+	<string>awakeFromNib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-    guard let `self` = self else { return }
-    &lt;#statements#&gt;
+	<string>override func awakeFromNib() {
+    super.awakeFromNib()
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AD0C3502-934C-4731-98DD-FBADE09679CA</string>
+	<string>36AB3AA8-31F7-4F64-83B3-3D1B0580BD20</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>With weak self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Closures</string>
+	<string>Swift Function - awakeFromNib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
