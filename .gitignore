@@ -2,6 +2,7 @@ UserData/*.xcuserstate
 UserData/*.xcstate
 UserData/AppDataSyncRecords
 UserData/IB Support/Simulator Devices/
+UserData/IDEDebugOverrides.plist
 UserData/IDEEditorInteractivityHistory
 UserData/IDEFindNavigatorScopes.plist
 UserData/IDENamedTabStateContexts.plist
