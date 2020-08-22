@@ -3,29 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@RFKit</string>
+	<string>vi.da</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
-		<string>TopLevel</string>
+		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/*!
- &lt;#part#&gt;
- RFKit
-
- Copyright © 2018 BB9z
- http://github.com/BB9z/RFKit
-
- The MIT License (MIT)
- http://www.opensource.org/licenses/mit-license.php
- */</string>
+	<string>override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    &lt;#...#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D3B1925-DCFA-49ED-8DCD-D74E528DDFB2</string>
+	<string>DFA4ABCA-7AF0-4865-918D-B00A3F605CDD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Doc - RFKit header</string>
+	<string>Function - viewDidAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

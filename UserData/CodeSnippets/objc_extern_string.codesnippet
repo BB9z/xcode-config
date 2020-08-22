@@ -14,8 +14,10 @@
 	<string>748A6ED3-EDCF-446C-A263-0676F5752EAF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C Constant Extern String</string>
+	<string>OC/declare: Constant Extern String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

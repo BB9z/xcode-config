@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>{ [weak self] (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-    guard let `self` = self else { return }
+    guard let sf = self else { return }
     &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>With weak self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Closures</string>
+	<string>Closures parameter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

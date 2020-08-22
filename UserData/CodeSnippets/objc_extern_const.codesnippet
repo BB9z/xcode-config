@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>extern const</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C Constant Extern</string>
+	<string>OC/declare: Constant Extern</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

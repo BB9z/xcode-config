@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>cl.vi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nullable) void (^&lt;#block name#&gt;)(void);</string>
+	<string>/**
+ &lt;#...#&gt;
+ */
+class &lt;#...#&gt;ViewController: UIViewController {
+    @objc var item: &lt;#Entity#&gt;!
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
+	<string>13F4672C-BCC1-4B88-AC5E-928A6BC69688</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>With item</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC/property: block</string>
+	<string>class UIViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

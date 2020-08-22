@@ -19,8 +19,10 @@ else {
 	<string>300825C8-C878-434D-91C0-8D509B4D9563</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C If @available</string>
+	<string>OC/lang: If @available</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

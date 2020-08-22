@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Implementation for an Objective-C category.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C Category Implementation</string>
+	<string>OC/declare: Category Implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

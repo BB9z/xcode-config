@@ -14,8 +14,10 @@
 	<string>C7D10A6D-A920-420D-8005-478C2D7E100D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>EXTObjC: weakify</string>
+	<string>OC/lang: EXTObjC: weakify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

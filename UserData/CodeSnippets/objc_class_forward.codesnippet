@@ -14,8 +14,10 @@
 	<string>D42C6B94-0CE9-41B8-AEB1-C0F982E2E458</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C Class Forward</string>
+	<string>OC/declare: Class Forward</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

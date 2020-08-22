@@ -22,8 +22,10 @@
 	<string>2859B380-FD7E-488D-8771-1AD8158EBD40</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RFAlloctionLog</string>
+	<string>OC/declare: RFAlloctionLog</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

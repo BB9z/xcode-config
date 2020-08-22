@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Auto mutex lock</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C @synchronized</string>
+	<string>OC/lang: @synchronized</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

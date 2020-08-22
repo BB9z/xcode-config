@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apir</string>
+	<string>ap.ir</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>API.request(withName: &lt;#String!#&gt;, parameters: &lt;#[String : Any]#&gt;, viewController: self, loadingMessage: &lt;#String?#&gt;, modal: false, success: { [weak self] _, &lt;#response#&gt; in
-    guard let sf = self else { return }
-    &lt;#do to#&gt;
-}, completion: { [weak self] _ in
-    self?.&lt;#...#&gt;
-})</string>
+	<string>API.requestName(&lt;#api name#&gt;) { c in
+    &lt;#c.parameters = [:]#&gt;
+    c.loadMessage = ""
+    c.groupIdentifier = apiGroupIdentifier
+    c.success { [weak self] _, _ in
+        &lt;#...#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C3672872-ECAC-4D90-A176-E75894141359</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift</string>
+	<string>Make RFAPI v2 request</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>API Request</string>
 	<key>IDECodeSnippetUserSnippet</key>

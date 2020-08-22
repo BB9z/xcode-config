@@ -12,7 +12,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>let alert = UIAlertController(title: &lt;#T##String?#&gt;, message: &lt;#T##String?#&gt;, preferredStyle: .alert)
 alert.addAction(UIAlertAction(title: "取消", style: .cancel, handler: nil))
-alert.addAction(UIAlertAction(title: &lt;#T##String?#&gt;, style: .destructive, handler: &lt;#T##((UIAlertAction) -&gt; Void)?##((UIAlertAction) -&gt; Void)?##(UIAlertAction) -&gt; Void#&gt;))
+alert.addAction(UIAlertAction(title: &lt;#T##String?#&gt;, style: .default, handler: { _ in
+    
+}))
 present(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>194483F1-6B2F-42C6-AFBD-D228B43828AD</string>
@@ -23,7 +25,7 @@ present(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Present an alert style controller</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift UIAlertController - Alert</string>
+	<string>UIAlertController - Alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

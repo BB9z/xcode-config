@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Load scene from specified storyboard</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C +newFromStoryboard method</string>
+	<string>OC/method: +newFromStoryboard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

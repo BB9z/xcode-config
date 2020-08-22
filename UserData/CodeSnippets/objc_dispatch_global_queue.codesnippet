@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Execute a block on global queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD: Dispatch on Global Queue</string>
+	<string>Objective-C GCD: Dispatch on Global Queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

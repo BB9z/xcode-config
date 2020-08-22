@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Present an alert style controller</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C UIAlertController - Alert</string>
+	<string>OC/declare: UIAlertController - Alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

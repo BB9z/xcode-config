@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Using NS_ENUM</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C Typedef enum</string>
+	<string>OC/declare: Typedef enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -23,7 +23,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>viewWillAppear + viewWillDisappear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C -viewWill methods</string>
+	<string>OC/method: -viewWill</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

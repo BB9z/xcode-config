@@ -17,8 +17,10 @@
 	<string>D8366E60-B0B2-4C67-9C85-627A71FA8CFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C -awakeFromNib method</string>
+	<string>OC/method: -awakeFromNib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

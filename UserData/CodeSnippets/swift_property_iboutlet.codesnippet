@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBOutlet weak var &lt;#name#&gt;: &lt;#type#&gt;!</string>
+	<string>@IBOutlet &lt;#private #&gt;weak var &lt;#name#&gt;: &lt;#type#&gt;!</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>82C73283-6C70-4D09-8DB8-872B024434E6</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>@IBOutlet property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Property - IBOutlet </string>
+	<string>Property - IBOutlet </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

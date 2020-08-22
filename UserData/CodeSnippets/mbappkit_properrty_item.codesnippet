@@ -14,8 +14,10 @@
 	<string>342E4008-EA26-4177-9F26-BA01DED9DA1C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>MBAppKit</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MBAppKit - item property</string>
+	<string>Property - item</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

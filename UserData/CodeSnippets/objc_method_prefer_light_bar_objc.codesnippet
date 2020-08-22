@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>The preferred status bar style for the view controller.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C -preferredStatusBarStyle method</string>
+	<string>OC/method: -preferredStatusBarStyle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

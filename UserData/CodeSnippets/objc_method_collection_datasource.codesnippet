@@ -24,8 +24,10 @@
 	<string>5B63F32A-82D0-4AE0-8C84-0E707682355D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C UICollectionView DataSource</string>
+	<string>OC/method: UICollectionView DataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

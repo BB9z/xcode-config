@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>di.am</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nullable) void (^&lt;#block name#&gt;)(void);</string>
+	<string>DispatchQueue.main.async { [weak self] in
+    &lt;#...#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
+	<string>9F5B9405-F572-48E6-8420-1550B494BB93</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC/property: block</string>
+	<string>Dispatch async main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

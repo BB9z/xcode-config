@@ -15,8 +15,10 @@
 	<string>2BF6AFB1-2B2B-4C9C-A254-3FE8B25A7B72</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Objective-C MSG Define</string>
+	<string>OC/declare: MSG Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -15,8 +15,10 @@
 	<string>07260AEE-EB6E-4C8A-951C-0E5EC6EB7AF9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>EXTObjC: keypath complete helper</string>
+	<string>OC/lang: EXTObjC: keypath complete helper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

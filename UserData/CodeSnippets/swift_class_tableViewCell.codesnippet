@@ -3,19 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@fix</string>
+	<string>cl.ce</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXRIGHTNOW(&lt;#user name#&gt;): &lt;#note#&gt;</string>
+	<string>/// 列表 cell
+class ListCell: UITableViewCell {
+    @objc var item: &lt;#Entity#&gt;! {
+        didSet {
+            &lt;#titleLabel.text = item.name#&gt;
+        }
+    }
+    @IBOutlet weak var titleLabel: UILabel!
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A42A31AA-D645-4AAC-92E9-0DD6E32F73C0</string>
+	<string>3E7B0BEE-67D5-4688-B8A0-F55F1F6F7595</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Code review fix right now</string>
+	<string>class UITableViewCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

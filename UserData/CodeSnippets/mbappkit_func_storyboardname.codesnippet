@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>classvc</string>
+	<string>cl.vc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -13,9 +13,7 @@
  &lt;#about#&gt;
  */
 class &lt;#ViewController#&gt;: NSViewController {
-    override class func storyboardName() -&gt; String {
-        return "&lt;#name#&gt;"
-    }
+    override class func storyboardName() -&gt; String { "&lt;#name#&gt;" }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3C431DCC-B1C7-4395-B3E4-DF723DFC7641</string>
@@ -24,7 +22,7 @@ class &lt;#ViewController#&gt;: NSViewController {
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>macosx</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift</string>
+	<string>With storyboardName()</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>class NSViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>

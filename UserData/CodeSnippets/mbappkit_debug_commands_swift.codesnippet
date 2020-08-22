@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#if DEBUG
 @objc func debugCommands() -&gt; [UIBarButtonItem] {
-    return [
+    [
         DebugMenuItem2(&lt;#T##title: String##String#&gt;, &lt;#T##actionBlock: () -&gt; Void##() -&gt; Void#&gt;)
     ]
 }

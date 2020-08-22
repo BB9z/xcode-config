@@ -3,21 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>cl.mo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nullable) void (^&lt;#block name#&gt;)(void);</string>
+	<string>
+/**
+ &lt;#说明#&gt;
+
+ &lt;#文档#&gt;
+ */
+@objc(&lt;#Entity#&gt;)
+class &lt;#...#&gt;: MBModel {
+    @objc var uid: MBID = -1
+
+    override class func keyMapper() -&gt; JSONKeyMapper! {
+        JSONKeyMapper.baseMapper(JSONKeyMapper.forSnakeCase(), withModelToJSONExceptions: [
+            #keyPath(&lt;#Entity#&gt;.uid): "id"
+        ])
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
+	<string>248EC2A8-CD25-4782-B19F-77E76B4CFF25</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC/property: block</string>
+	<string>class MBModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

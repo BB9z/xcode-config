@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>cl.ts</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nullable) void (^&lt;#block name#&gt;)(void);</string>
+	<string>class Test&lt;#...#&gt;: XCTestCase {
+    func test&lt;#Name#&gt;() {
+        &lt;#statements#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45426A10-366D-49D4-86FA-9FE5978F821F</string>
+	<string>28CE1566-9F1B-4A5D-972C-6F81A8EA7033</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC/property: block</string>
+	<string>class XCTestCase</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

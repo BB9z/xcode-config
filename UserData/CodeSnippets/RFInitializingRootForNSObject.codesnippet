@@ -25,7 +25,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>For root NSObject</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RFInitializingForRootNSObject</string>
+	<string>OC/declare: RFInitializingForRootNSObject</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

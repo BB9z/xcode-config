@@ -9,15 +9,17 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBAction func &lt;#function#&gt;(_ sender: Any) {
+	<string>@IBAction private func &lt;#function#&gt;(_ sender: Any) {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C6B345F0-E360-4EDF-9CF5-C33CE41A0F53</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift IBAction Function</string>
+	<string>Function - IBAction </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

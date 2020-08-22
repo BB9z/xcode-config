@@ -14,8 +14,10 @@
 	<string>F10BCA00-2CAE-461E-B031-339411456EF5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property IBOutletCollection</string>
+	<string>OC/property: IBOutletCollection</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
