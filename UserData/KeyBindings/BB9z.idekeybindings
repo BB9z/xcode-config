@@ -12,6 +12,46 @@
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.sugarmo.XCFormat.SourceExtension,IDESourceEditorExtensionCommand:com.sugarmo.XCFormat.SourceExtension.FormatActiveFile</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>XCFormat</string>
+				<key>Title</key>
+				<string>Format Active File</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>IDESourceEditorExtension:com.sugarmo.XCFormat.SourceExtension,IDESourceEditorExtensionCommand:com.sugarmo.XCFormat.SourceExtension.FormatSelctedLines</string>
+				<key>Group</key>
+				<string>Editor Menu for Source Code</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusSourceEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>XCFormat</string>
+				<key>Title</key>
+				<string>Format Selected Lines</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>_invokeSourceEditorExtensionCommand:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
 				<string>IDESourceEditorExtension:name.lazarenko.daniel.xcsort.xcsortext,IDESourceEditorExtensionCommand:name.lazarenko.daniel.xcsort.xcsortext.SourceEditorCommand</string>
 				<key>Group</key>
 				<string>Editor Menu for Source Code</string>
@@ -144,26 +184,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>searchDocumentationForSelectedText:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.SearchDocumentationForSelectedText</string>
-				<key>Group</key>
-				<string>Help Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>~@?</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Search Documentation for Selected Text</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>showDocumentItemsMenu:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -228,26 +248,6 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>selectNextTab:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.ShowNextTab</string>
-				<key>Group</key>
-				<string>Window Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^$</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Next Tab</string>
-			</dict>
-			<dict>
-				<key>Action</key>
 				<string>selectPreviousTab:</string>
 				<key>Alternate</key>
 				<string>NO</string>
@@ -260,7 +260,7 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>$</string>
+				<string>^$</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
@@ -379,17 +379,9 @@
 				<string>moveToBeginningOfParagraph:</string>
 				<string>moveBackward:</string>
 				<string>deleteToMark:</string>
-				<string>deleteToBeginningOfLine:</string>
 			</array>
 			<key>$</key>
 			<string>deleteWordForward:</string>
-			<key>@</key>
-			<array>
-				<string>selectParagraph:</string>
-				<string>delete:</string>
-				<string>moveUp:</string>
-				<string>moveToEndOfParagraph:</string>
-			</array>
 			<key>^$Y</key>
 			<string>yankAndSelect:</string>
 			<key>^d</key>
