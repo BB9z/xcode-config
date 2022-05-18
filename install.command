@@ -36,8 +36,12 @@ BackupDir="$PWD/Backup/$Date"
 mkdir -pv "$BackupDir"
 
 echo "\nBackup old directories:"
-mv -v "$HOME/Library/Developer/Xcode/UserData" "$BackupDir/"
-mv -v "$HOME/Library/Developer/Xcode/Templates" "$BackupDir/"
+if [ -f "$HOME/Library/Developer/Xcode/UserData" ]; then
+  mv -v "$HOME/Library/Developer/Xcode/UserData" "$BackupDir/"
+fi
+if [ -f "$HOME/Library/Developer/Xcode/Templates" ]; then
+  mv -v "$HOME/Library/Developer/Xcode/Templates" "$BackupDir/"
+fi
 
 echo "\nCreat link to new directories:"
 ln -hfsv "$PWD/Templates" "$PWD/UserData" "$HOME/Library/Developer/Xcode"
@@ -49,14 +53,15 @@ FileKeybindBak="$BackupDir/IDETextKeyBindingSet.plist"
 
 if [ -f "$FileKeybindDestination" ]
 then
-	echo "\nIDETextKeyBindingSet exist, backup the original file..."
-	sudo mv -iv "$FileKeybindSource" "$FileKeybindBak"
+  echo "\nIDETextKeyBindingSet exist, backup the original file..."
+  sudo mv -iv "$FileKeybindSource" "$FileKeybindBak"
 else
-	echo "\nOur IDETextKeyBindingSet not exist, treat the original file as new config..."
-	sudo mv -iv "$FileKeybindSource" "$FileKeybindDestination"
+  echo "\nOur IDETextKeyBindingSet not exist, treat the original file as new config..."
+  sudo mv -iv "$FileKeybindSource" "$FileKeybindDestination"
 fi
 
 echo "\nCreat IDETextKeyBindingSet link:"
 sudo ln -hfsv "$FileKeybindDestination" "$FileKeybindSource"
 
 echo "\nSetup successful."
+echo "Please restart Xcode."
