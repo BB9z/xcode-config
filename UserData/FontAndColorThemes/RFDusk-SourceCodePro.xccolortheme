@@ -30,6 +30,10 @@
 	<string>0.496 0.496 0.378 1</string>
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.12 0.31 0.34 1</string>
+	<key>DVTFontAndColorVersion</key>
+	<integer>1</integer>
+	<key>DVTLineSpacing</key>
+	<real>1.1000000238418579</real>
 	<key>DVTMarkupTextBackgroundColor</key>
 	<string>0.15323 0.153995 0.153968 1</string>
 	<key>DVTMarkupTextBorderColor</key>
@@ -39,35 +43,53 @@
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>.SFNSText-Italic - 11.0</string>
+	<string>SourceCodePro-RegularItalic - 11.0</string>
+	<key>DVTMarkupTextInlineCodeColor</key>
+	<string>1 1 1 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.293369 0.59631 0.981358 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>.SFNSText-Regular - 11.0</string>
+	<string>SourceCodePro-Regular - 11.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>.SFNSText-Regular - 11.0</string>
+	<string>SourceCodePro-Regular - 11.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>1 1 1 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
-	<string>.SFNSText-Regular - 15.4</string>
+	<string>SourceCodePro-Regular - 15.4</string>
 	<key>DVTMarkupTextPrimaryHeadingColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextPrimaryHeadingFont</key>
-	<string>.SFNSDisplay-Regular - 26.4</string>
+	<string>SourceCodePro-Regular - 26.4</string>
 	<key>DVTMarkupTextSecondaryHeadingColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextSecondaryHeadingFont</key>
-	<string>.SFNSText-Regular - 19.8</string>
+	<string>SourceCodePro-Regular - 19.8</string>
 	<key>DVTMarkupTextStrongColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>.SFNSText-Bold - 11.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
+	<key>DVTScrollbarMarkerAnalyzerColor</key>
+	<string>0.403922 0.372549 1 1</string>
+	<key>DVTScrollbarMarkerBreakpointColor</key>
+	<string>0.290196 0.290196 0.968627 1</string>
+	<key>DVTScrollbarMarkerDiffColor</key>
+	<string>0.556863 0.556863 0.556863 1</string>
+	<key>DVTScrollbarMarkerDiffConflictColor</key>
+	<string>0.968627 0.290196 0.290196 1</string>
+	<key>DVTScrollbarMarkerErrorColor</key>
+	<string>0.968627 0.290196 0.290196 1</string>
+	<key>DVTScrollbarMarkerRuntimeIssueColor</key>
+	<string>0.643137 0.509804 1 1</string>
+	<key>DVTScrollbarMarkerWarningColor</key>
+	<string>0.937255 0.717647 0.34902 1</string>
 	<key>DVTSourceTextBackground</key>
 	<string>0.0784314 0.0784314 0 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
+	<key>DVTSourceTextCurrentLineHighlightColor</key>
+	<string>0.1565 0.176013 0.124 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
 	<string>1 1 1 1</string>
 	<key>DVTSourceTextInvisiblesColor</key>
@@ -86,6 +108,10 @@
 		<string>1 0.888483 0.650553 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>1 0.774161 0.294575 1</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>0.254902 0.631373 0.752941 1</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>0.362946 0.846428 0.998966 1</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>0.513725 0.752941 0.341176 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -112,6 +138,10 @@
 		<string>0.533391 0.729792 0.746 1</string>
 		<key>xcode.syntax.keyword</key>
 		<string>0.682482 0.273723 0.722143 1</string>
+		<key>xcode.syntax.mark</key>
+		<string>0.572549 0.631373 0.694118 1</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>0.665 0.052 0.569 1</string>
 		<key>xcode.syntax.number</key>
 		<string>0.469 0.426 0.77 1</string>
 		<key>xcode.syntax.plain</key>
@@ -135,6 +165,10 @@
 		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>SourceCodePro-Regular - 11.0</string>
+		<key>xcode.syntax.declaration.other</key>
+		<string>SourceCodePro-Medium - 12.0</string>
+		<key>xcode.syntax.declaration.type</key>
+		<string>SourceCodePro-Medium - 12.0</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>SourceCodePro-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -161,6 +195,10 @@
 		<string>SourceCodePro-Regular - 12.0</string>
 		<key>xcode.syntax.keyword</key>
 		<string>SourceCodePro-Regular - 12.0</string>
+		<key>xcode.syntax.mark</key>
+		<string>SourceCodePro-Bold - 12.0</string>
+		<key>xcode.syntax.markup.code</key>
+		<string>SourceCodePro-Medium - 12.0</string>
 		<key>xcode.syntax.number</key>
 		<string>SourceCodePro-Regular - 12.0</string>
 		<key>xcode.syntax.plain</key>
