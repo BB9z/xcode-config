@@ -3,30 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugCommand</string>
+	<string>available</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-@objc func debugCommands() -&gt; [UIBarButtonItem] {
-    [
-        DebugMenuItem2("&lt;#..#&gt;") { [self] in
-        }
-    ]
-}
-#endif</string>
+	<string>@available(*, deprecated, renamed: &lt;#"new"#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FC8BECC6-BA43-41F1-B494-24D8B0E1BC7B</string>
+	<string>22680C00-ED5B-40C1-9718-D94D94609E37</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift - debugCommands()</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MBDebugCommandItemSource</string>
+	<string>@available renamed</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

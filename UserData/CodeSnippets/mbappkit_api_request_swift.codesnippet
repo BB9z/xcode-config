@@ -13,7 +13,8 @@
     &lt;#c.parameters = [:]#&gt;
     c.loadMessage = ""
     c.groupIdentifier = apiGroupIdentifier
-    c.success { [weak self] _, _ in
+    c.success { [weak self] _, rsp in
+        guard let item = rsp as? &lt;#Entity#&gt; else { fatalError() }
         &lt;#...#&gt;
     }
 }</string>

@@ -6,18 +6,17 @@
 	<string>cl.ce</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/// 列表 cell
-class ListCell: UITableViewCell {
-    @objc var item: &lt;#Entity#&gt;! {
+class ListCell: UITableViewCell, HasItem {
+    var item: &lt;#Entity#&gt;! {
         didSet {
             &lt;#titleLabel.text = item.name#&gt;
         }
     }
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet private weak var titleLabel: UILabel!
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3E7B0BEE-67D5-4688-B8A0-F55F1F6F7595</string>

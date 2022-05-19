@@ -3,30 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugCommand</string>
+	<string>prc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-@objc func debugCommands() -&gt; [UIBarButtonItem] {
-    [
-        DebugMenuItem2("&lt;#..#&gt;") { [self] in
+	<string>var &lt;#...#&gt;: &lt;#Type#&gt; {
+    get {
+        if _RENAME == nil {
+            _RENAME = &lt;#Type#&gt;()
         }
-    ]
+        return _RENAME
+    }
+    set {
+        _RENAME = newValue
+    }
 }
-#endif</string>
+private var _RENAME: &lt;#Type#&gt;!</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FC8BECC6-BA43-41F1-B494-24D8B0E1BC7B</string>
+	<string>659D3733-6C0C-4710-9656-458BDB6FD028</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift - debugCommands()</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MBDebugCommandItemSource</string>
+	<string>Property Cached</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

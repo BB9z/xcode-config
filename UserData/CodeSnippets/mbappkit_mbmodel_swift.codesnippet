@@ -6,25 +6,25 @@
 	<string>cl.mo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>
 /**
  &lt;#说明#&gt;
-
+ 
  &lt;#文档#&gt;
  */
 @objc(&lt;#Entity#&gt;)
+@objcMembers
 class &lt;#...#&gt;: MBModel {
-    @objc var uid: MBID = -1
-
     override class func keyMapper() -&gt; JSONKeyMapper! {
-        JSONKeyMapper.baseMapper(JSONKeyMapper.forSnakeCase(), withModelToJSONExceptions: [
+        JSONKeyMapper(modelToJSONDictionary: [
             #keyPath(&lt;#Entity#&gt;.uid): "id"
         ])
     }
+    
+    var uid: MBID = -1
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>248EC2A8-CD25-4782-B19F-77E76B4CFF25</string>

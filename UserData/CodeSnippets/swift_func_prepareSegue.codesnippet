@@ -3,30 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugCommand</string>
+	<string>prepareSegue</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-@objc func debugCommands() -&gt; [UIBarButtonItem] {
-    [
-        DebugMenuItem2("&lt;#..#&gt;") { [self] in
-        }
-    ]
-}
-#endif</string>
+	<string>override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    generalPrepare(segue: segue, sender: sender)
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FC8BECC6-BA43-41F1-B494-24D8B0E1BC7B</string>
+	<string>EFE5FCB2-C311-4BAE-8654-D1877C5A6C7D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift - debugCommands()</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MBDebugCommandItemSource</string>
+	<string>Function - General Segue Prepare</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

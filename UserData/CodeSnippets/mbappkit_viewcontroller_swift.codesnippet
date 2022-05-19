@@ -12,8 +12,9 @@
 	<string>/**
  &lt;#about#&gt;
  */
-class &lt;#ViewController#&gt;: UIViewController {
-    override class func storyboardName() -&gt; String { "&lt;#name#&gt;" }
+class &lt;#ViewController#&gt;: UIViewController, StoryboardCreation
+{
+    static var storyboardID: StoryboardID { .main }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5535D217-8827-4121-988C-BB87448A2C84</string>
@@ -22,7 +23,7 @@ class &lt;#ViewController#&gt;: UIViewController {
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>With stroyboardName()</string>
+	<string>With stroyboardID</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>class UIViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>

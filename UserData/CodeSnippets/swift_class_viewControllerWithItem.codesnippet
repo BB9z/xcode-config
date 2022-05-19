@@ -6,15 +6,17 @@
 	<string>cl.vi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
  &lt;#...#&gt;
  */
-class &lt;#...#&gt;ViewController: UIViewController {
-    @objc var item: &lt;#Entity#&gt;!
+class &lt;#...#&gt;ViewController: UIViewController,
+    HasItem
+{
+    typealias Item = &lt;#Entity#&gt;
+    var item: Item!
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>13F4672C-BCC1-4B88-AC5E-928A6BC69688</string>
