@@ -1,5 +1,5 @@
-#! /bin/sh
-set -e
+#! /bin/zsh
+set -euo pipefail
 
 cd $(dirname $0)
 echo "Current dir is \"$PWD\"\n"
@@ -44,7 +44,7 @@ if [ -f "$HOME/Library/Developer/Xcode/Templates" ]; then
 fi
 
 echo "\nCreat link to new directories:"
-ln -hfsv "$PWD/Templates" "$PWD/UserData" "$HOME/Library/Developer/Xcode"
+sudo ln -hfsv "$PWD/Templates" "$PWD/UserData" "$HOME/Library/Developer/Xcode"
 
 FileKeybindSource="$XcodeContentPath/Frameworks/IDEKit.framework/Versions/A/Resources/IDETextKeyBindingSet.plist"
 FileKeybindDestination="$PWD/IDETextKeyBindingSet/IDETextKeyBindingSet.plist"
@@ -61,6 +61,7 @@ else
 fi
 
 echo "\nCreat IDETextKeyBindingSet link:"
+echo "ln -hfsv \"$FileKeybindDestination\" \"$FileKeybindSource\""
 sudo ln -hfsv "$FileKeybindDestination" "$FileKeybindSource"
 
 echo "\nSetup successful."

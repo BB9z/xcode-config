@@ -1,5 +1,5 @@
-#! /bin/sh
-set -e
+#! /bin/zsh
+set -euo pipefail
 
 cd $(dirname $0)
 echo "Current dir is \"$PWD\"\n"
